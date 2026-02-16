@@ -1,0 +1,113 @@
+{
+  "success": true,
+  "generated_at": "2026-02-16T14:56:05.698425",
+  "note": "Using cached odds + fixed NBA model (demo)",
+  "model_stats": {
+    "win_rate": "61.94%",
+    "roi": "18.24%",
+    "backtest": "2023 season (1,755 games)"
+  },
+  "picks": [
+    {
+      "id": 1,
+      "rank": 1,
+      "isPotd": true,
+      "sport": "NBA",
+      "matchup": "Houston Rockets @ Charlotte Hornets",
+      "pickTeam": "Charlotte Hornets",
+      "pickLine": 2.0,
+      "odds": 1.93,
+      "oddsFormat": "decimal",
+      "bookmaker": "FanDuel",
+      "confidence": 63.7,
+      "edge": 11.92,
+      "gameTime": "2026-02-20T00:10:00+00:00",
+      "analysis": "Fixed NBA model (61.94% WR, 18.24% ROI). Confidence: 63.7%. Edge: 11.92%. Home win probability: 63.7%."
+    },
+    {
+      "id": 2,
+      "rank": 2,
+      "isPotd": false,
+      "sport": "NBA",
+      "matchup": "Brooklyn Nets @ Cleveland Cavaliers",
+      "pickTeam": "Cleveland Cavaliers",
+      "pickLine": -13.5,
+      "odds": 1.89,
+      "oddsFormat": "decimal",
+      "bookmaker": "FanDuel",
+      "confidence": 64.1,
+      "edge": 11.21,
+      "gameTime": "2026-02-20T00:10:00+00:00",
+      "analysis": "Fixed NBA model (61.94% WR, 18.24% ROI). Confidence: 64.1%. Edge: 11.21%. Home win probability: 64.1%."
+    },
+    {
+      "id": 3,
+      "rank": 3,
+      "isPotd": false,
+      "sport": "NBA",
+      "matchup": "Indiana Pacers @ Washington Wizards",
+      "pickTeam": "Washington Wizards",
+      "pickLine": 4.5,
+      "odds": 1.87,
+      "oddsFormat": "decimal",
+      "bookmaker": "DraftKings",
+      "confidence": 61.7,
+      "edge": 8.27,
+      "gameTime": "2026-02-20T00:00:00+00:00",
+      "analysis": "Fixed NBA model (61.94% WR, 18.24% ROI). Confidence: 61.7%. Edge: 8.27%. Home win probability: 61.7%."
+    },
+    {
+      "id": 4,
+      "rank": 4,
+      "isPotd": false,
+      "sport": "NBA",
+      "matchup": "Detroit Pistons @ New York Knicks",
+      "pickTeam": "New York Knicks",
+      "pickLine": -3.0,
+      "odds": 1.94,
+      "oddsFormat": "decimal",
+      "bookmaker": "FanDuel",
+      "confidence": 59.2,
+      "edge": 7.61,
+      "gameTime": "2026-02-20T00:40:00+00:00",
+      "analysis": "Fixed NBA model (61.94% WR, 18.24% ROI). Confidence: 59.2%. Edge: 7.61%. Home win probability: 59.2%."
+    },
+    {
+      "id": 5,
+      "rank": 5,
+      "isPotd": false,
+      "sport": "NBA",
+      "matchup": "Atlanta Hawks @ Philadelphia 76ers",
+      "pickTeam": "Philadelphia 76ers",
+      "pickLine": -4.5,
+      "odds": 1.93,
+      "oddsFormat": "decimal",
+      "bookmaker": "FanDuel",
+      "confidence": 55.3,
+      "edge": 3.49,
+      "gameTime": "2026-02-20T00:10:00+00:00",
+      "analysis": "Fixed NBA model (61.94% WR, 18.24% ROI). Confidence: 55.3%. Edge: 3.49%. Home win probability: 55.3%."
+    }
+  ],
+  "potd": {
+    "id": 1,
+    "rank": 1,
+    "isPotd": true,
+    "sport": "NBA",
+    "matchup": "Houston Rockets @ Charlotte Hornets",
+    "pickTeam": "Charlotte Hornets",
+    "pickLine": 2.0,
+    "odds": 1.93,
+    "oddsFormat": "decimal",
+    "bookmaker": "FanDuel",
+    "confidence": 63.7,
+    "edge": 11.92,
+    "gameTime": "2026-02-20T00:10:00+00:00",
+    "analysis": "Fixed NBA model (61.94% WR, 18.24% ROI). Confidence: 63.7%. Edge: 11.92%. Home win probability: 63.7%."
+  },
+  "stats": {
+    "total_picks": 5,
+    "avg_confidence": 60.8,
+    "avg_edge": 8.500000000000002
+  }
+}

@@ -35,25 +35,56 @@ class DailyPicksGenerator:
         
         print(f"\n🧠 Loading {sport_prefix.upper()} models...")
         
-        model_types = ['xgboost', 'lightgbm', 'random_forest', 'logistic']
-        
-        for model_type in model_types:
-            model_file = self.model_dir / f"{sport_prefix}_{model_type}_model.pkl"
+        # For NBA, try fixed models first
+        if sport_prefix == 'nba':
+            model_types = ['xgboost', 'lightgbm', 'random_forest', 'logistic']
             
-            if model_file.exists():
-                with open(model_file, 'rb') as f:
-                    self.models[model_type] = pickle.load(f)
-                print(f"  ✓ Loaded {model_type}")
-            else:
-                print(f"  ✗ Missing {model_type}")
-        
-        # Load metadata
-        metadata_file = self.model_dir / f"{sport_prefix}_ensemble_metadata.json"
-        if metadata_file.exists():
-            import json
-            with open(metadata_file, 'r') as f:
-                self.metadata = json.load(f)
-            print(f"  ✓ Loaded metadata")
+            # Try to load fixed models
+            for model_type in model_types:
+                model_file = self.model_dir / f"{sport_prefix}_fixed_{model_type}_model.pkl"
+                
+                if model_file.exists():
+                    with open(model_file, 'rb') as f:
+                        self.models[model_type] = pickle.load(f)
+                    print(f"  ✓ Loaded {model_type} (fixed model)")
+                else:
+                    # Fallback to regular model
+                    model_file = self.model_dir / f"{sport_prefix}_{model_type}_model.pkl"
+                    if model_file.exists():
+                        with open(model_file, 'rb') as f:
+                            self.models[model_type] = pickle.load(f)
+                        print(f"  ✓ Loaded {model_type}")
+                    else:
+                        print(f"  ✗ Missing {model_type}")
+            
+            # Load fixed metadata if available
+            metadata_file = self.model_dir / f"{sport_prefix}_fixed_ensemble_metadata.json"
+            if metadata_file.exists():
+                import json
+                with open(metadata_file, 'r') as f:
+                    self.metadata = json.load(f)
+                print(f"  ✓ Loaded fixed model metadata")
+        else:
+            # NFL - use regular models
+            model_types = ['xgboost', 'lightgbm', 'random_forest', 'logistic']
+            
+            for model_type in model_types:
+                model_file = self.model_dir / f"{sport_prefix}_{model_type}_model.pkl"
+                
+                if model_file.exists():
+                    with open(model_file, 'rb') as f:
+                        self.models[model_type] = pickle.load(f)
+                    print(f"  ✓ Loaded {model_type}")
+                else:
+                    print(f"  ✗ Missing {model_type}")
+            
+            # Load metadata
+            metadata_file = self.model_dir / f"{sport_prefix}_ensemble_metadata.json"
+            if metadata_file.exists():
+                import json
+                with open(metadata_file, 'r') as f:
+                    self.metadata = json.load(f)
+                print(f"  ✓ Loaded metadata")
         
         if len(self.models) == 0:
             raise ValueError(f"No models found for {sport_prefix}")
