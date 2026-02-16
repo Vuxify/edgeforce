@@ -86,6 +86,63 @@ async function fetchTodaysPicks() {
   }
 }
 
+// Fetch alternative lines from API
+async function fetchAlternativePicks() {
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/picks/alternative`)
+    const data = await response.json()
+    
+    if (!data.success) {
+      console.log('No alternative picks available:', data.message || 'Unknown error')
+      return { picks: [], groupedByGame: {}, markets: {} }
+    }
+    
+    return {
+      picks: data.picks || [],
+      groupedByGame: data.grouped_by_game || {},
+      markets: data.picks_by_market || {}
+    }
+  } catch (error) {
+    console.error('Error fetching alternative picks:', error)
+    return { picks: [], groupedByGame: {}, markets: {} }
+  }
+}
+
+// Create embed for alternative pick
+function createAltPickEmbed(pick) {
+  const confidenceColor = pick.confidence >= 70 ? 0x00FF88 : 
+                           pick.confidence >= 60 ? 0x0066FF : 0xFFD700
+
+  const marketEmoji = {
+    'spread': '📈',
+    'total': '📊',
+    'moneyline': '💰'
+  }
+
+  const edgeLabel = pick.edge >= 5 ? '✅ STRONG' : '✅ GOOD'
+
+  return new EmbedBuilder()
+    .setTitle(`${marketEmoji[pick.market_type] || '🎯'} ${pick.market_type.toUpperCase()} Pick`)
+    .setDescription(`**${pick.matchup}**`)
+    .setColor(confidenceColor)
+    .addFields(
+      { name: '🎯 Pick', value: pick.pick_description, inline: true },
+      { name: '💰 Odds', value: `${pick.odds.toFixed(2)} (${pick.bookmaker})`, inline: true },
+      { name: '📊 Confidence', value: `${pick.confidence.toFixed(1)}%`, inline: true },
+      { name: '📈 Edge', value: `+${pick.edge.toFixed(2)}% ${edgeLabel}`, inline: true },
+      { name: '🔍 Type', value: pick.market_type.toUpperCase(), inline: true },
+      { name: '⏰ Game Time', value: new Date(pick.gameTime).toLocaleString('en-US', { 
+        month: 'short', 
+        day: 'numeric', 
+        hour: 'numeric', 
+        minute: '2-digit',
+        hour12: true 
+      }), inline: true }
+    )
+    .setTimestamp()
+    .setFooter({ text: 'EdgeForce | Multiple betting options per game' })
+}
+
 // Post daily picks to channel
 async function postDailyPicks() {
   try {
@@ -140,12 +197,20 @@ async function registerCommands() {
       .setDescription('Get today\'s top pick'),
     
     new SlashCommandBuilder()
-      .setName('stats')
-      .setDescription('View EdgeForce performance statistics'),
-    
-    new SlashCommandBuilder()
       .setName('picks')
       .setDescription('View all today\'s picks'),
+    
+    new SlashCommandBuilder()
+      .setName('altpicks')
+      .setDescription('View alternative lines (spreads, totals, moneylines)')
+      .addStringOption(option =>
+        option.setName('game')
+          .setDescription('Filter by team name (optional)')
+          .setRequired(false)),
+    
+    new SlashCommandBuilder()
+      .setName('stats')
+      .setDescription('View EdgeForce performance statistics'),
   ].map(cmd => cmd.toJSON())
 
   const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_BOT_TOKEN)
@@ -193,6 +258,60 @@ client.on('interactionCreate', async interaction => {
 
       const embeds = picks.slice(0, 5).map(pick => createPickEmbed(pick, false))
       await interaction.reply({ embeds })
+    }
+
+    if (interaction.commandName === 'altpicks') {
+      const gameFilter = interaction.options.getString('game')
+      const { picks, markets } = await fetchAlternativePicks()
+      
+      if (picks.length === 0) {
+        await interaction.reply('📭 No alternative picks available today. Check back later!')
+        return
+      }
+
+      // Filter by game if specified
+      let filteredPicks = picks
+      if (gameFilter) {
+        filteredPicks = picks.filter(p => 
+          p.matchup.toLowerCase().includes(gameFilter.toLowerCase())
+        )
+        
+        if (filteredPicks.length === 0) {
+          await interaction.reply(`📭 No picks found for "${gameFilter}". Try a team name like "Lakers" or "Celtics".`)
+          return
+        }
+      }
+
+      // Show top 10 alternative picks
+      const topAlts = filteredPicks.slice(0, 10)
+      
+      // Create header message
+      let headerMsg = '🎯 **ALTERNATIVE LINES & BET TYPES**\n\n'
+      headerMsg += `Showing ${topAlts.length} picks `
+      if (gameFilter) headerMsg += `for "${gameFilter}" `
+      headerMsg += 'across multiple markets:\n'
+      headerMsg += '📈 Spreads | 📊 Totals | 💰 Moneylines\n'
+      headerMsg += '━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n'
+      
+      // Group picks by market for summary
+      const spreadCount = topAlts.filter(p => p.market_type === 'spread').length
+      const totalCount = topAlts.filter(p => p.market_type === 'total').length
+      const mlCount = topAlts.filter(p => p.market_type === 'moneyline').length
+      
+      headerMsg += `📊 Breakdown: ${spreadCount} spreads, ${totalCount} totals, ${mlCount} moneylines`
+      
+      await interaction.reply({ content: headerMsg })
+      
+      // Send embeds (max 5 at a time due to Discord limits)
+      const embedsToSend = topAlts.slice(0, 5).map(pick => createAltPickEmbed(pick))
+      
+      await interaction.followUp({ embeds: embedsToSend })
+      
+      // If more than 5, send another batch
+      if (topAlts.length > 5) {
+        const moreEmbeds = topAlts.slice(5, 10).map(pick => createAltPickEmbed(pick))
+        await interaction.followUp({ embeds: moreEmbeds })
+      }
     }
 
     if (interaction.commandName === 'stats') {
