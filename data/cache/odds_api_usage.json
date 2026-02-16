@@ -1,10 +1,10 @@
 {
-  "total_requests": 6,
-  "total_credits_used": 5,
-  "requests_today": 6,
-  "credits_today": 5,
+  "total_requests": 8,
+  "total_credits_used": 19,
+  "requests_today": 8,
+  "credits_today": 19,
   "last_reset": "2026-02-16",
-  "monthly_credits_remaining": 492,
+  "monthly_credits_remaining": 484,
   "requests_log": [
     {
       "timestamp": "2026-02-16T14:39:32.415846",
@@ -35,6 +35,16 @@
       "timestamp": "2026-02-16T14:45:00.593028",
       "endpoint": "sports/basketball_nba/odds",
       "credits": 4
+    },
+    {
+      "timestamp": "2026-02-16T14:47:18.924868",
+      "endpoint": "sports/basketball_nba/odds",
+      "credits": 6
+    },
+    {
+      "timestamp": "2026-02-16T14:47:34.275134",
+      "endpoint": "sports/basketball_nba/odds",
+      "credits": 8
     }
   ]
 }
