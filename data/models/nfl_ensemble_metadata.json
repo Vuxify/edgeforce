@@ -1,0 +1,40 @@
+{
+  "sport": "nfl",
+  "feature_cols": [
+    "home_ppg_L3",
+    "home_ppg_allowed_L3",
+    "home_win_rate_L3",
+    "home_ppg_L5",
+    "home_ppg_allowed_L5",
+    "home_win_rate_L5",
+    "home_ppg_L10",
+    "home_ppg_allowed_L10",
+    "home_win_rate_L10",
+    "away_ppg_L3",
+    "away_ppg_allowed_L3",
+    "away_win_rate_L3",
+    "away_ppg_L5",
+    "away_ppg_allowed_L5",
+    "away_win_rate_L5",
+    "away_ppg_L10",
+    "away_ppg_allowed_L10",
+    "away_win_rate_L10",
+    "elo_home_before",
+    "elo_away_before",
+    "elo_diff",
+    "elo_home_prob",
+    "home_rest_days",
+    "away_rest_days",
+    "rest_advantage",
+    "home_b2b",
+    "away_b2b",
+    "season_progress"
+  ],
+  "weights": [
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ],
+  "trained_at": "2026-02-16T14:35:32.849412"
+}
