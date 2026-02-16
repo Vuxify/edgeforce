@@ -7,3 +7,7 @@ dist
 .vercel
 *.log
 .DS_Store
+
+# The Odds API credentials
+.edgeforce-odds-api.env
+~/.edgeforce-odds-api.env

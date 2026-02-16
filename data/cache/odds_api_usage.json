@@ -1,0 +1,35 @@
+{
+  "total_requests": 5,
+  "total_credits_used": 1,
+  "requests_today": 5,
+  "credits_today": 1,
+  "last_reset": "2026-02-16",
+  "monthly_credits_remaining": 498,
+  "requests_log": [
+    {
+      "timestamp": "2026-02-16T14:39:32.415846",
+      "endpoint": "sports",
+      "credits": 0
+    },
+    {
+      "timestamp": "2026-02-16T14:39:32.639732",
+      "endpoint": "sports/americanfootball_nfl/odds",
+      "credits": 0
+    },
+    {
+      "timestamp": "2026-02-16T14:39:51.334690",
+      "endpoint": "sports",
+      "credits": 0
+    },
+    {
+      "timestamp": "2026-02-16T14:39:51.550503",
+      "endpoint": "sports/americanfootball_nfl/odds",
+      "credits": 0
+    },
+    {
+      "timestamp": "2026-02-16T14:40:12.058519",
+      "endpoint": "sports/basketball_nba/odds",
+      "credits": 1
+    }
+  ]
+}
