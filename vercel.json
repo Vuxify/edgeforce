@@ -4,51 +4,5 @@
   "devCommand": "cd apps/web && npm run dev",
   "installCommand": "npm install",
   "framework": "nextjs",
-  "outputDirectory": "apps/web/.next",
-  "env": {
-    "NEXT_PUBLIC_SUPABASE_URL": {
-      "type": "plain",
-      "value": ""
-    },
-    "NEXT_PUBLIC_SUPABASE_ANON_KEY": {
-      "type": "plain",
-      "value": ""
-    },
-    "SUPABASE_SERVICE_ROLE_KEY": {
-      "type": "secret",
-      "value": ""
-    },
-    "STRIPE_SECRET_KEY": {
-      "type": "secret",
-      "value": ""
-    },
-    "NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY": {
-      "type": "plain",
-      "value": ""
-    },
-    "STRIPE_PRICE_PRO": {
-      "type": "plain",
-      "value": ""
-    },
-    "STRIPE_PRICE_ELITE": {
-      "type": "plain",
-      "value": ""
-    },
-    "STRIPE_WEBHOOK_SECRET": {
-      "type": "secret",
-      "value": ""
-    },
-    "ADMIN_PASSWORD_HASH": {
-      "type": "secret",
-      "value": ""
-    },
-    "DISCORD_WEBHOOK_URL": {
-      "type": "secret",
-      "value": ""
-    },
-    "NEXT_PUBLIC_BASE_URL": {
-      "type": "plain",
-      "value": "https://edgeforce.gg"
-    }
-  }
+  "outputDirectory": "apps/web/.next"
 }
