@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0066FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00FF88;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background rounded square -->
+  <rect width="200" height="200" rx="40" fill="url(#grad)"/>
+  
+  <!-- Lightning bolt integrated with "E" (subtle) -->
+  <path d="M 65 70 L 95 70 L 80 100 L 105 100 L 75 140 L 88 108 L 70 108 Z" 
+        fill="white" opacity="0.15"/>
+  
+  <!-- "EF" text -->
+  <text x="100" y="135" font-size="85" font-weight="900" 
+        text-anchor="middle" fill="white" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" 
+        letter-spacing="-2">
+    EF
+  </text>
+</svg>
