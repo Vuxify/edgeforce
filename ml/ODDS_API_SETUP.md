@@ -32,6 +32,8 @@ python3 odds_api.py
 - **Monthly Credits:** 500
 - **Conservative Daily Limit:** 15 credits (to ensure we don't run out)
 - **Cache Duration:** 30 minutes (odds don't change that fast)
+- **❌ NO Historical Data** - Free tier only has current/live odds
+- **✅ Workaround:** We'll store odds ourselves to build historical database
 
 ## Credit Costs
 
@@ -40,7 +42,7 @@ python3 odds_api.py
 | Get Sports List | 1-2 | Only call once per day |
 | Get Odds (2 bookmakers) | 3-5 | Minimal, for key games |
 | Get Odds (all bookmakers) | 8-10 | Expensive, use sparingly |
-| Historical Odds | Varies | Avoid on free tier |
+| Historical Odds | ❌ NOT AVAILABLE | Paid tiers only ($30+/month) |
 
 ## Smart Usage Strategy
 
@@ -93,21 +95,38 @@ This will:
 Once tested, the API key will be used for:
 
 1. **Daily Predictions** (6 AM)
-   - Fetch closing lines for today's games
+   - Fetch current lines for today's games
    - Compare to model predictions
    - Calculate edge
    - Only bet when edge > 2%
 
-2. **CLV Tracking**
-   - Store opening lines
-   - Store closing lines
-   - Calculate Closing Line Value
-   - Track model accuracy vs market
+2. **CLV Tracking** (Build Our Own Historical Data)
+   - **Opening Lines:** Fetch odds when games announced (3-7 days before)
+   - **Store Locally:** Save to database with timestamp
+   - **Closing Lines:** Fetch again 1 hour before game starts
+   - **Calculate CLV:** Compare our pick to closing line
+   - **Track Performance:** Did we beat the closing line?
 
-3. **Performance Metrics**
-   - Did we beat the closing line?
-   - How much edge did we have?
-   - Validate model profitability
+3. **Line Movement Tracking** (Optional)
+   - Fetch odds 2-3x per day
+   - Track line movement over time
+   - Identify steam moves (sharp money)
+   - Store in local database
+
+### Building Historical Odds Database
+
+Since free tier has no historical access, we store odds ourselves:
+
+```python
+# Pseudo-code for daily odds collection
+Every day at 6 AM, 2 PM, 10 PM:
+  1. Fetch current odds for games in next 7 days
+  2. Store in database: game_id, bookmaker, line, timestamp
+  3. Track changes over time
+  4. Build historical line movement database
+```
+
+**Storage Cost:** Minimal (~1MB per month of odds data)
 
 ## Security
 
