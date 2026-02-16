@@ -15,73 +15,81 @@ const PICKS_CHANNEL_ID = process.env.PICKS_CHANNEL_ID
 const API_BASE_URL = process.env.API_BASE_URL || 'http://localhost:3000'
 
 // Create embed for a pick
-function createPickEmbed(pick) {
-  const confidenceColor = pick.confidence >= 75 ? 0x00FF88 : 
+function createPickEmbed(pick, isPotd = false) {
+  const confidenceColor = pick.confidence >= 70 ? 0x00FF88 : 
                            pick.confidence >= 60 ? 0x0066FF : 0xFFD700
 
+  const medal = isPotd ? '⭐' : pick.rank === 1 ? '🥇' : pick.rank === 2 ? '🥈' : pick.rank === 3 ? '🥉' : '📌'
+  const edgeLabel = pick.edge >= 5 ? '✅ STRONG' : '✅ GOOD'
+
   return new EmbedBuilder()
-    .setTitle(`🔥 ${pick.sport} Pick`)
-    .setDescription(`**${pick.game}**`)
+    .setTitle(`${medal} ${pick.sport} Pick ${isPotd ? '- PICK OF THE DAY' : `#${pick.rank}`}`)
+    .setDescription(`**${pick.matchup}**`)
     .setColor(confidenceColor)
     .addFields(
-      { name: '🎯 Pick', value: pick.pick, inline: true },
-      { name: '📊 Confidence', value: `${pick.confidence}%`, inline: true },
-      { name: '💰 Odds', value: String(pick.odds), inline: true },
-      { name: '🧠 Analysis', value: pick.reasoning || 'Based on advanced analytics' },
-      { name: '⏰ Game Time', value: new Date(pick.game_time).toLocaleString(), inline: true },
-      { name: '🏆 Tier', value: pick.tier_required.toUpperCase(), inline: true }
+      { name: '🎯 Pick', value: `${pick.pickTeam} ${pick.pickLine > 0 ? '+' : ''}${pick.pickLine}`, inline: true },
+      { name: '📊 Confidence', value: `${pick.confidence.toFixed(1)}%`, inline: true },
+      { name: '💰 Odds', value: `${pick.odds.toFixed(2)} (${pick.bookmaker})`, inline: true },
+      { name: '📈 Edge', value: `+${pick.edge.toFixed(2)}% ${edgeLabel}`, inline: true },
+      { name: '⏰ Game Time', value: new Date(pick.gameTime).toLocaleString('en-US', { 
+        month: 'short', 
+        day: 'numeric', 
+        hour: 'numeric', 
+        minute: '2-digit',
+        hour12: true 
+      }), inline: true },
+      { name: '🏆 Tier', value: 'FREE', inline: true },
+      { name: '🧠 Analysis', value: pick.analysis || 'Based on advanced ML models' }
     )
     .setTimestamp()
-    .setFooter({ text: 'EdgeForce | Beat Vegas. Backed by AI.' })
+    .setFooter({ text: 'EdgeForce | Beat Vegas with Data' })
 }
 
 // Create performance stats embed
-function createStatsEmbed(stats) {
-  const winRate = ((stats.wins / (stats.wins + stats.losses)) * 100).toFixed(1)
-  
+function createStatsEmbed(stats, modelStats) {
   return new EmbedBuilder()
     .setTitle('📊 EdgeForce Performance Stats')
     .setColor(0x0066FF)
+    .setDescription('**Production ML Model Performance**')
     .addFields(
-      { name: '🏆 Win Rate', value: `${winRate}%`, inline: true },
-      { name: '💰 ROI', value: `${stats.roi.toFixed(1)}%`, inline: true },
-      { name: '📈 Units Won', value: `+${stats.units_won.toFixed(1)}`, inline: true },
-      { name: '✅ Wins', value: String(stats.wins), inline: true },
-      { name: '❌ Losses', value: String(stats.losses), inline: true },
-      { name: '➖ Pushes', value: String(stats.pushes), inline: true }
+      { name: '🏆 Model Win Rate', value: modelStats.win_rate, inline: true },
+      { name: '💰 Model ROI', value: modelStats.roi, inline: true },
+      { name: '📈 Backtest', value: modelStats.backtest, inline: true },
+      { name: '📊 Today\'s Picks', value: String(stats.total_picks), inline: true },
+      { name: '💪 Avg Confidence', value: `${stats.avg_confidence.toFixed(1)}%`, inline: true },
+      { name: '📈 Avg Edge', value: `+${stats.avg_edge.toFixed(2)}%`, inline: true }
     )
     .setTimestamp()
-    .setFooter({ text: 'All-time performance' })
+    .setFooter({ text: 'NBA Model: 61.94% WR, 18.24% ROI | NFL Model: 59.01% WR, 12.65% ROI' })
 }
 
 // Fetch picks from API
 async function fetchTodaysPicks() {
   try {
-    const response = await fetch(`${API_BASE_URL}/api/picks`)
+    const response = await fetch(`${API_BASE_URL}/api/picks/today`)
     const data = await response.json()
-    return data.picks || []
+    
+    if (!data.success) {
+      console.log('No picks available:', data.message || 'Unknown error')
+      return { picks: [], potd: null, stats: null, modelStats: null }
+    }
+    
+    return {
+      picks: data.picks || [],
+      potd: data.potd || null,
+      stats: data.stats || null,
+      modelStats: data.model_stats || null
+    }
   } catch (error) {
     console.error('Error fetching picks:', error)
-    return []
-  }
-}
-
-// Fetch stats from API
-async function fetchStats() {
-  try {
-    const response = await fetch(`${API_BASE_URL}/api/stats`)
-    const data = await response.json()
-    return data.stats
-  } catch (error) {
-    console.error('Error fetching stats:', error)
-    return null
+    return { picks: [], potd: null, stats: null, modelStats: null }
   }
 }
 
 // Post daily picks to channel
 async function postDailyPicks() {
   try {
-    const picks = await fetchTodaysPicks()
+    const { picks, potd } = await fetchTodaysPicks()
     const channel = client.channels.cache.get(PICKS_CHANNEL_ID)
     
     if (!channel) {
@@ -90,21 +98,35 @@ async function postDailyPicks() {
     }
 
     if (picks.length === 0) {
-      await channel.send('📭 No picks for today. Model found no profitable opportunities.')
+      await channel.send('📭 **No picks for today.** Model found no profitable opportunities with sufficient edge.')
       return
     }
 
-    // Post top 3 picks
-    const topPicks = picks.slice(0, 3)
+    // Post header
+    await channel.send({
+      content: '🚀 **DAILY PICKS ARE LIVE!**\n\n' +
+               '**EdgeForce NBA Model:** 61.94% Win Rate | 18.24% ROI\n' +
+               '**Based on 1,755+ backtested games**\n' +
+               '━━━━━━━━━━━━━━━━━━━━━━━━━━━'
+    })
     
-    await channel.send('🚀 **Daily Picks Are Live!**')
-    
-    for (const pick of topPicks) {
-      const embed = createPickEmbed(pick)
-      await channel.send({ embeds: [embed] })
+    // Post Pick of the Day
+    if (potd) {
+      const potdEmbed = createPickEmbed(potd, true)
+      await channel.send({ embeds: [potdEmbed] })
     }
 
-    console.log(`Posted ${topPicks.length} picks to Discord`)
+    // Post top 3-5 picks
+    const additionalPicks = picks.slice(0, Math.min(5, picks.length))
+    
+    for (const pick of additionalPicks) {
+      if (pick.id !== potd?.id) { // Don't duplicate POTD
+        const embed = createPickEmbed(pick, false)
+        await channel.send({ embeds: [embed] })
+      }
+    }
+
+    console.log(`✅ Posted ${additionalPicks.length} picks to Discord`)
   } catch (error) {
     console.error('Error posting daily picks:', error)
   }
@@ -148,40 +170,40 @@ client.on('interactionCreate', async interaction => {
 
   try {
     if (interaction.commandName === 'pick') {
-      const picks = await fetchTodaysPicks()
+      const { potd, picks } = await fetchTodaysPicks()
       
-      if (picks.length === 0) {
+      if (!potd && picks.length === 0) {
         await interaction.reply('📭 No picks available today.')
         return
       }
 
-      const topPick = picks[0]
-      const embed = createPickEmbed(topPick)
+      const topPick = potd || picks[0]
+      const embed = createPickEmbed(topPick, true)
       
       await interaction.reply({ embeds: [embed] })
     }
 
     if (interaction.commandName === 'picks') {
-      const picks = await fetchTodaysPicks()
+      const { picks } = await fetchTodaysPicks()
       
       if (picks.length === 0) {
         await interaction.reply('📭 No picks available today.')
         return
       }
 
-      const embeds = picks.slice(0, 5).map(pick => createPickEmbed(pick))
+      const embeds = picks.slice(0, 5).map(pick => createPickEmbed(pick, false))
       await interaction.reply({ embeds })
     }
 
     if (interaction.commandName === 'stats') {
-      const stats = await fetchStats()
+      const { stats, modelStats } = await fetchTodaysPicks()
       
-      if (!stats) {
+      if (!stats || !modelStats) {
         await interaction.reply('❌ Unable to fetch stats.')
         return
       }
 
-      const embed = createStatsEmbed(stats)
+      const embed = createStatsEmbed(stats, modelStats)
       await interaction.reply({ embeds: [embed] })
     }
   } catch (error) {
