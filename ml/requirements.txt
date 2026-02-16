@@ -1,0 +1,23 @@
+# ML/Data Collection Dependencies
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+lightgbm>=4.0.0
+
+# Data Collection
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+lxml>=4.9.0
+nba-api>=1.4.0
+
+# Selenium for JavaScript-heavy sites (optional)
+selenium>=4.15.0
+
+# Data visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0

@@ -1,0 +1,273 @@
+season,week,game_id,date,status,home_team,home_abbr,home_score,home_record,away_team,away_abbr,away_score,away_record,home_win,total_points,point_differential,venue,city,neutral_site,network
+2022,1,401437654,2022-09-09T00:20Z,STATUS_FINAL,Los Angeles Rams,LAR,10,0-1,Buffalo Bills,BUF,31,1-0,False,41,21,SoFi Stadium,Inglewood,False,NBC
+2022,1,401437650,2022-09-11T17:00Z,STATUS_FINAL,Atlanta Falcons,ATL,26,0-1,New Orleans Saints,NO,27,1-0,False,53,1,Mercedes-Benz Stadium,Atlanta,False,FOX
+2022,1,401437647,2022-09-11T17:00Z,STATUS_FINAL,Chicago Bears,CHI,19,1-0,San Francisco 49ers,SF,10,0-1,True,29,9,Soldier Field,Chicago,False,FOX
+2022,1,401437634,2022-09-11T17:00Z,STATUS_FINAL,Cincinnati Bengals,CIN,20,0-1,Pittsburgh Steelers,PIT,23,1-0,False,43,3,Paycor Stadium,Cincinnati,False,CBS
+2022,1,401437648,2022-09-11T17:00Z,STATUS_FINAL,Detroit Lions,DET,35,0-1,Philadelphia Eagles,PHI,38,1-0,False,73,3,Ford Field,Detroit,False,FOX
+2022,1,401437630,2022-09-11T17:00Z,STATUS_FINAL,Miami Dolphins,MIA,20,1-0,New England Patriots,NE,7,0-1,True,27,13,Hard Rock Stadium,Miami Gardens,False,CBS
+2022,1,401437632,2022-09-11T17:00Z,STATUS_FINAL,New York Jets,NYJ,9,0-1,Baltimore Ravens,BAL,24,1-0,False,33,15,MetLife Stadium,East Rutherford,False,CBS
+2022,1,401437646,2022-09-11T17:00Z,STATUS_FINAL,Washington Commanders,WSH,28,1-0,Jacksonville Jaguars,JAX,22,0-1,True,50,6,Northwest Stadium,Landover,False,FOX
+2022,1,401437651,2022-09-11T17:00Z,STATUS_FINAL,Carolina Panthers,CAR,24,0-1,Cleveland Browns,CLE,26,1-0,False,50,2,Bank of America Stadium,Charlotte,False,CBS
+2022,1,401437637,2022-09-11T17:00Z,STATUS_FINAL,Houston Texans,HOU,20,0-0-1,Indianapolis Colts,IND,20,0-0-1,False,40,0,NRG Stadium,Houston,False,CBS
+2022,1,401437640,2022-09-11T20:25Z,STATUS_FINAL,Tennessee Titans,TEN,20,0-1,New York Giants,NYG,21,1-0,False,41,1,Nissan Stadium,Nashville,False,FOX
+2022,1,401437649,2022-09-11T20:25Z,STATUS_FINAL,Minnesota Vikings,MIN,23,1-0,Green Bay Packers,GB,7,0-1,True,30,16,U.S. Bank Stadium,Minneapolis,False,FOX
+2022,1,401437653,2022-09-11T20:25Z,STATUS_FINAL,Arizona Cardinals,ARI,21,0-1,Kansas City Chiefs,KC,44,1-0,False,65,23,State Farm Stadium,Glendale,False,CBS
+2022,1,401437643,2022-09-11T20:25Z,STATUS_FINAL,Los Angeles Chargers,LAC,24,1-0,Las Vegas Raiders,LV,19,0-1,True,43,5,SoFi Stadium,Inglewood,False,CBS
+2022,1,401437644,2022-09-12T00:20Z,STATUS_FINAL,Dallas Cowboys,DAL,3,0-1,Tampa Bay Buccaneers,TB,19,1-0,False,22,16,AT&T Stadium,Arlington,False,NBC
+2022,1,401437655,2022-09-13T00:15Z,STATUS_FINAL,Seattle Seahawks,SEA,17,1-0,Denver Broncos,DEN,16,0-1,True,33,1,Lumen Field,Seattle,False,ESPN
+2022,2,401434030,2022-09-16T00:15Z,STATUS_FINAL,Kansas City Chiefs,KC,27,2-0,Los Angeles Chargers,LAC,24,1-1,True,51,3,GEHA Field at Arrowhead Stadium,Kansas City,False,Prime Video
+2022,2,401437635,2022-09-18T17:00Z,STATUS_FINAL,Cleveland Browns,CLE,30,1-1,New York Jets,NYJ,31,1-1,False,61,1,Huntington Bank Field,Cleveland,False,CBS
+2022,2,401437732,2022-09-18T17:00Z,STATUS_FINAL,Detroit Lions,DET,36,1-1,Washington Commanders,WSH,27,1-1,True,63,9,Ford Field,Detroit,False,FOX
+2022,2,401437652,2022-09-18T17:00Z,STATUS_FINAL,New Orleans Saints,NO,10,1-1,Tampa Bay Buccaneers,TB,20,2-0,False,30,10,Caesars Superdome,New Orleans,False,FOX
+2022,2,401437645,2022-09-18T17:00Z,STATUS_FINAL,New York Giants,NYG,19,2-0,Carolina Panthers,CAR,16,0-2,True,35,3,MetLife Stadium,East Rutherford,False,FOX
+2022,2,401437636,2022-09-18T17:00Z,STATUS_FINAL,Pittsburgh Steelers,PIT,14,1-1,New England Patriots,NE,17,1-1,False,31,3,Acrisure Stadium,Pittsburgh,False,CBS
+2022,2,401437639,2022-09-18T17:00Z,STATUS_FINAL,Jacksonville Jaguars,JAX,24,1-1,Indianapolis Colts,IND,0,0-1-1,True,24,24,EverBank Stadium,Jacksonville,False,CBS
+2022,2,401437633,2022-09-18T17:00Z,STATUS_FINAL,Baltimore Ravens,BAL,38,1-1,Miami Dolphins,MIA,42,2-0,False,80,4,M&T Bank Stadium,Baltimore,False,CBS
+2022,2,401437733,2022-09-18T20:05Z,STATUS_FINAL,Los Angeles Rams,LAR,31,1-1,Atlanta Falcons,ATL,27,0-2,True,58,4,SoFi Stadium,Inglewood,False,FOX
+2022,2,401437605,2022-09-18T20:05Z,STATUS_FINAL,San Francisco 49ers,SF,27,1-1,Seattle Seahawks,SEA,7,1-1,True,34,20,Levi's Stadium,Santa Clara,False,FOX
+2022,2,401437734,2022-09-18T20:25Z,STATUS_FINAL,Dallas Cowboys,DAL,20,1-1,Cincinnati Bengals,CIN,17,0-2,True,37,3,AT&T Stadium,Arlington,False,CBS
+2022,2,401437641,2022-09-18T20:25Z,STATUS_FINAL,Denver Broncos,DEN,16,1-1,Houston Texans,HOU,9,0-1-1,True,25,7,Empower Field at Mile High,Denver,False,CBS
+2022,2,401437642,2022-09-18T20:25Z,STATUS_FINAL,Las Vegas Raiders,LV,23,0-2,Arizona Cardinals,ARI,29,1-1,False,52,6,Allegiant Stadium,Las Vegas,False,CBS
+2022,2,401437606,2022-09-19T00:20Z,STATUS_FINAL,Green Bay Packers,GB,27,1-1,Chicago Bears,CHI,10,1-1,True,37,17,Lambeau Field,Green Bay,False,NBC
+2022,2,401436831,2022-09-19T23:15Z,STATUS_FINAL,Buffalo Bills,BUF,41,2-0,Tennessee Titans,TEN,7,0-2,True,48,34,Highmark Stadium,Orchard Park,False,ESPN
+2022,2,401436832,2022-09-20T00:30Z,STATUS_FINAL,Philadelphia Eagles,PHI,24,2-0,Minnesota Vikings,MIN,7,1-1,True,31,17,Lincoln Financial Field,Philadelphia,False,ABC
+2022,3,401437735,2022-09-23T00:15Z,STATUS_FINAL,Cleveland Browns,CLE,29,2-1,Pittsburgh Steelers,PIT,17,1-2,True,46,12,Huntington Bank Field,Cleveland,False,Prime Video
+2022,3,401437737,2022-09-25T17:00Z,STATUS_FINAL,Chicago Bears,CHI,23,2-1,Houston Texans,HOU,20,0-2-1,True,43,3,Soldier Field,Chicago,False,CBS
+2022,3,401437741,2022-09-25T17:00Z,STATUS_FINAL,Tennessee Titans,TEN,24,1-2,Las Vegas Raiders,LV,22,0-3,True,46,2,Nissan Stadium,Nashville,False,FOX
+2022,3,401437638,2022-09-25T17:00Z,STATUS_FINAL,Indianapolis Colts,IND,20,1-1-1,Kansas City Chiefs,KC,17,2-1,True,37,3,Lucas Oil Stadium,Indianapolis,False,CBS
+2022,3,401437738,2022-09-25T17:00Z,STATUS_FINAL,Miami Dolphins,MIA,21,3-0,Buffalo Bills,BUF,19,2-1,True,40,2,Hard Rock Stadium,Miami Gardens,False,CBS
+2022,3,401437739,2022-09-25T17:00Z,STATUS_FINAL,Minnesota Vikings,MIN,28,2-1,Detroit Lions,DET,24,1-2,True,52,4,U.S. Bank Stadium,Minneapolis,False,FOX
+2022,3,401437631,2022-09-25T17:00Z,STATUS_FINAL,New England Patriots,NE,26,1-2,Baltimore Ravens,BAL,37,2-1,False,63,11,Gillette Stadium,Foxborough,False,FOX
+2022,3,401437740,2022-09-25T17:00Z,STATUS_FINAL,New York Jets,NYJ,12,1-2,Cincinnati Bengals,CIN,27,1-2,False,39,15,MetLife Stadium,East Rutherford,False,CBS
+2022,3,401437742,2022-09-25T17:00Z,STATUS_FINAL,Washington Commanders,WSH,8,1-2,Philadelphia Eagles,PHI,24,3-0,False,32,16,Northwest Stadium,Landover,False,FOX
+2022,3,401437736,2022-09-25T17:00Z,STATUS_FINAL,Carolina Panthers,CAR,22,1-2,New Orleans Saints,NO,14,1-2,True,36,8,Bank of America Stadium,Charlotte,False,FOX
+2022,3,401437743,2022-09-25T20:05Z,STATUS_FINAL,Los Angeles Chargers,LAC,10,1-2,Jacksonville Jaguars,JAX,38,2-1,False,48,28,SoFi Stadium,Inglewood,False,CBS
+2022,3,401437744,2022-09-25T20:25Z,STATUS_FINAL,Arizona Cardinals,ARI,12,1-2,Los Angeles Rams,LAR,20,2-1,False,32,8,State Farm Stadium,Glendale,False,FOX
+2022,3,401437745,2022-09-25T20:25Z,STATUS_FINAL,Seattle Seahawks,SEA,23,1-2,Atlanta Falcons,ATL,27,1-2,False,50,4,Lumen Field,Seattle,False,FOX
+2022,3,401437607,2022-09-25T20:25Z,STATUS_FINAL,Tampa Bay Buccaneers,TB,12,2-1,Green Bay Packers,GB,14,2-1,False,26,2,Raymond James Stadium,Tampa,False,FOX
+2022,3,401437746,2022-09-26T00:20Z,STATUS_FINAL,Denver Broncos,DEN,11,2-1,San Francisco 49ers,SF,10,1-2,True,21,1,Empower Field at Mile High,Denver,False,NBC
+2022,3,401437747,2022-09-27T00:15Z,STATUS_FINAL,New York Giants,NYG,16,2-1,Dallas Cowboys,DAL,23,2-1,False,39,7,MetLife Stadium,East Rutherford,False,ESPN
+2022,4,401437748,2022-09-30T00:15Z,STATUS_FINAL,Cincinnati Bengals,CIN,27,2-2,Miami Dolphins,MIA,15,3-1,True,42,12,Paycor Stadium,Cincinnati,False,Prime Video
+2022,4,401435639,2022-10-02T13:30Z,STATUS_FINAL,New Orleans Saints,NO,25,1-3,Minnesota Vikings,MIN,28,3-1,False,53,3,Tottenham Hotspur Stadium,London,True,NFL Net
+2022,4,401437749,2022-10-02T17:00Z,STATUS_FINAL,Atlanta Falcons,ATL,23,2-2,Cleveland Browns,CLE,20,2-2,True,43,3,Mercedes-Benz Stadium,Atlanta,False,CBS
+2022,4,401437751,2022-10-02T17:00Z,STATUS_FINAL,Dallas Cowboys,DAL,25,3-1,Washington Commanders,WSH,10,1-3,True,35,15,AT&T Stadium,Arlington,False,FOX
+2022,4,401437752,2022-10-02T17:00Z,STATUS_FINAL,Detroit Lions,DET,45,1-3,Seattle Seahawks,SEA,48,2-2,False,93,3,Ford Field,Detroit,False,FOX
+2022,4,401437754,2022-10-02T17:00Z,STATUS_FINAL,Indianapolis Colts,IND,17,1-2-1,Tennessee Titans,TEN,24,2-2,False,41,7,Lucas Oil Stadium,Indianapolis,False,FOX
+2022,4,401437755,2022-10-02T17:00Z,STATUS_FINAL,New York Giants,NYG,20,3-1,Chicago Bears,CHI,12,2-2,True,32,8,MetLife Stadium,East Rutherford,False,FOX
+2022,4,401437756,2022-10-02T17:00Z,STATUS_FINAL,Philadelphia Eagles,PHI,29,4-0,Jacksonville Jaguars,JAX,21,2-2,True,50,8,Lincoln Financial Field,Philadelphia,False,CBS
+2022,4,401437757,2022-10-02T17:00Z,STATUS_FINAL,Pittsburgh Steelers,PIT,20,1-3,New York Jets,NYJ,24,2-2,False,44,4,Acrisure Stadium,Pittsburgh,False,CBS
+2022,4,401437750,2022-10-02T17:00Z,STATUS_FINAL,Baltimore Ravens,BAL,20,2-2,Buffalo Bills,BUF,23,3-1,False,43,3,M&T Bank Stadium,Baltimore,False,CBS
+2022,4,401437753,2022-10-02T17:00Z,STATUS_FINAL,Houston Texans,HOU,24,0-3-1,Los Angeles Chargers,LAC,34,2-2,False,58,10,NRG Stadium,Houston,False,CBS
+2022,4,401437758,2022-10-02T20:05Z,STATUS_FINAL,Carolina Panthers,CAR,16,1-3,Arizona Cardinals,ARI,26,2-2,False,42,10,Bank of America Stadium,Charlotte,False,FOX
+2022,4,401437759,2022-10-02T20:25Z,STATUS_FINAL,Green Bay Packers,GB,27,3-1,New England Patriots,NE,24,1-3,True,51,3,Lambeau Field,Green Bay,False,CBS
+2022,4,401437760,2022-10-02T20:25Z,STATUS_FINAL,Las Vegas Raiders,LV,32,1-3,Denver Broncos,DEN,23,2-2,True,55,9,Allegiant Stadium,Las Vegas,False,CBS
+2022,4,401437470,2022-10-03T00:20Z,STATUS_FINAL,Tampa Bay Buccaneers,TB,31,2-2,Kansas City Chiefs,KC,41,3-1,False,72,10,Raymond James Stadium,Tampa,False,NBC
+2022,4,401437761,2022-10-04T00:15Z,STATUS_FINAL,San Francisco 49ers,SF,24,2-2,Los Angeles Rams,LAR,9,2-2,True,33,15,Levi's Stadium,Santa Clara,False,ESPN
+2022,5,401437762,2022-10-07T00:15Z,STATUS_FINAL,Denver Broncos,DEN,9,2-3,Indianapolis Colts,IND,12,2-2-1,False,21,3,Empower Field at Mile High,Denver,False,Prime Video
+2022,5,401435640,2022-10-09T13:30Z,STATUS_FINAL,Green Bay Packers,GB,22,3-2,New York Giants,NYG,27,4-1,False,49,5,Tottenham Hotspur Stadium,London,True,NFL Net
+2022,5,401437763,2022-10-09T17:00Z,STATUS_FINAL,Buffalo Bills,BUF,38,4-1,Pittsburgh Steelers,PIT,3,1-4,True,41,35,Highmark Stadium,Orchard Park,False,CBS
+2022,5,401437764,2022-10-09T17:00Z,STATUS_FINAL,Cleveland Browns,CLE,28,2-3,Los Angeles Chargers,LAC,30,3-2,False,58,2,Huntington Bank Field,Cleveland,False,CBS
+2022,5,401437766,2022-10-09T17:00Z,STATUS_FINAL,Minnesota Vikings,MIN,29,4-1,Chicago Bears,CHI,22,2-3,True,51,7,U.S. Bank Stadium,Minneapolis,False,FOX
+2022,5,401437767,2022-10-09T17:00Z,STATUS_FINAL,New England Patriots,NE,29,2-3,Detroit Lions,DET,0,1-4,True,29,29,Gillette Stadium,Foxborough,False,FOX
+2022,5,401437768,2022-10-09T17:00Z,STATUS_FINAL,New Orleans Saints,NO,39,2-3,Seattle Seahawks,SEA,32,2-3,True,71,7,Caesars Superdome,New Orleans,False,FOX
+2022,5,401437769,2022-10-09T17:00Z,STATUS_FINAL,New York Jets,NYJ,40,3-2,Miami Dolphins,MIA,17,3-2,True,57,23,MetLife Stadium,East Rutherford,False,CBS
+2022,5,401437770,2022-10-09T17:00Z,STATUS_FINAL,Tampa Bay Buccaneers,TB,21,3-2,Atlanta Falcons,ATL,15,2-3,True,36,6,Raymond James Stadium,Tampa,False,FOX
+2022,5,401437771,2022-10-09T17:00Z,STATUS_FINAL,Washington Commanders,WSH,17,1-4,Tennessee Titans,TEN,21,3-2,False,38,4,Northwest Stadium,Landover,False,CBS
+2022,5,401437765,2022-10-09T17:00Z,STATUS_FINAL,Jacksonville Jaguars,JAX,6,2-3,Houston Texans,HOU,13,1-3-1,False,19,7,EverBank Stadium,Jacksonville,False,CBS
+2022,5,401437772,2022-10-09T20:05Z,STATUS_FINAL,Carolina Panthers,CAR,15,1-4,San Francisco 49ers,SF,37,3-2,False,52,22,Bank of America Stadium,Charlotte,False,CBS
+2022,5,401437774,2022-10-09T20:25Z,STATUS_FINAL,Los Angeles Rams,LAR,10,2-3,Dallas Cowboys,DAL,22,4-1,False,32,12,SoFi Stadium,Inglewood,False,FOX
+2022,5,401437773,2022-10-09T20:25Z,STATUS_FINAL,Arizona Cardinals,ARI,17,2-3,Philadelphia Eagles,PHI,20,5-0,False,37,3,State Farm Stadium,Glendale,False,FOX
+2022,5,401437775,2022-10-10T00:20Z,STATUS_FINAL,Baltimore Ravens,BAL,19,3-2,Cincinnati Bengals,CIN,17,2-3,True,36,2,M&T Bank Stadium,Baltimore,False,NBC
+2022,5,401437776,2022-10-11T00:15Z,STATUS_FINAL,Kansas City Chiefs,KC,30,4-1,Las Vegas Raiders,LV,29,1-4,True,59,1,GEHA Field at Arrowhead Stadium,Kansas City,False,ESPN
+2022,6,401437777,2022-10-14T00:15Z,STATUS_FINAL,Chicago Bears,CHI,7,2-4,Washington Commanders,WSH,12,2-4,False,19,5,Soldier Field,Chicago,False,Prime Video
+2022,6,401437778,2022-10-16T17:00Z,STATUS_FINAL,Atlanta Falcons,ATL,28,3-3,San Francisco 49ers,SF,14,3-3,True,42,14,Mercedes-Benz Stadium,Atlanta,False,FOX
+2022,6,401437779,2022-10-16T17:00Z,STATUS_FINAL,Cleveland Browns,CLE,15,2-4,New England Patriots,NE,38,3-3,False,53,23,Huntington Bank Field,Cleveland,False,CBS
+2022,6,401437780,2022-10-16T17:00Z,STATUS_FINAL,Green Bay Packers,GB,10,3-3,New York Jets,NYJ,27,4-2,False,37,17,Lambeau Field,Green Bay,False,FOX
+2022,6,401437781,2022-10-16T17:00Z,STATUS_FINAL,Indianapolis Colts,IND,34,3-2-1,Jacksonville Jaguars,JAX,27,2-4,True,61,7,Lucas Oil Stadium,Indianapolis,False,CBS
+2022,6,401437782,2022-10-16T17:00Z,STATUS_FINAL,Miami Dolphins,MIA,16,3-3,Minnesota Vikings,MIN,24,5-1,False,40,8,Hard Rock Stadium,Miami Gardens,False,FOX
+2022,6,401437783,2022-10-16T17:00Z,STATUS_FINAL,New Orleans Saints,NO,26,2-4,Cincinnati Bengals,CIN,30,3-3,False,56,4,Caesars Superdome,New Orleans,False,CBS
+2022,6,401437784,2022-10-16T17:00Z,STATUS_FINAL,New York Giants,NYG,24,5-1,Baltimore Ravens,BAL,20,3-3,True,44,4,MetLife Stadium,East Rutherford,False,CBS
+2022,6,401437785,2022-10-16T17:00Z,STATUS_FINAL,Pittsburgh Steelers,PIT,20,2-4,Tampa Bay Buccaneers,TB,18,3-3,True,38,2,Acrisure Stadium,Pittsburgh,False,FOX
+2022,6,401437786,2022-10-16T20:05Z,STATUS_FINAL,Los Angeles Rams,LAR,24,3-3,Carolina Panthers,CAR,10,1-5,True,34,14,SoFi Stadium,Inglewood,False,FOX
+2022,6,401437787,2022-10-16T20:05Z,STATUS_FINAL,Seattle Seahawks,SEA,19,3-3,Arizona Cardinals,ARI,9,2-4,True,28,10,Lumen Field,Seattle,False,FOX
+2022,6,401437788,2022-10-16T20:25Z,STATUS_FINAL,Kansas City Chiefs,KC,20,4-2,Buffalo Bills,BUF,24,5-1,False,44,4,GEHA Field at Arrowhead Stadium,Kansas City,False,CBS
+2022,6,401437789,2022-10-17T00:20Z,STATUS_FINAL,Philadelphia Eagles,PHI,26,6-0,Dallas Cowboys,DAL,17,4-2,True,43,9,Lincoln Financial Field,Philadelphia,False,NBC
+2022,6,401437790,2022-10-18T00:15Z,STATUS_FINAL,Los Angeles Chargers,LAC,19,4-2,Denver Broncos,DEN,16,2-4,True,35,3,SoFi Stadium,Inglewood,False,ESPN
+2022,7,401437791,2022-10-21T00:15Z,STATUS_FINAL,Arizona Cardinals,ARI,42,3-4,New Orleans Saints,NO,34,2-5,True,76,8,State Farm Stadium,Glendale,False,Prime Video
+2022,7,401437794,2022-10-23T17:00Z,STATUS_FINAL,Cincinnati Bengals,CIN,35,4-3,Atlanta Falcons,ATL,17,3-4,True,52,18,Paycor Stadium,Cincinnati,False,FOX
+2022,7,401437795,2022-10-23T17:00Z,STATUS_FINAL,Dallas Cowboys,DAL,24,5-2,Detroit Lions,DET,6,1-5,True,30,18,AT&T Stadium,Arlington,False,CBS
+2022,7,401437797,2022-10-23T17:00Z,STATUS_FINAL,Tennessee Titans,TEN,19,4-2,Indianapolis Colts,IND,10,3-3-1,True,29,9,Nissan Stadium,Nashville,False,CBS
+2022,7,401437798,2022-10-23T17:00Z,STATUS_FINAL,Washington Commanders,WSH,23,3-4,Green Bay Packers,GB,21,3-4,True,44,2,Northwest Stadium,Landover,False,FOX
+2022,7,401437793,2022-10-23T17:00Z,STATUS_FINAL,Carolina Panthers,CAR,21,2-5,Tampa Bay Buccaneers,TB,3,3-4,True,24,18,Bank of America Stadium,Charlotte,False,FOX
+2022,7,401437796,2022-10-23T17:00Z,STATUS_FINAL,Jacksonville Jaguars,JAX,17,2-5,New York Giants,NYG,23,6-1,False,40,6,EverBank Stadium,Jacksonville,False,FOX
+2022,7,401437792,2022-10-23T17:00Z,STATUS_FINAL,Baltimore Ravens,BAL,23,4-3,Cleveland Browns,CLE,20,2-5,True,43,3,M&T Bank Stadium,Baltimore,False,CBS
+2022,7,401437799,2022-10-23T20:05Z,STATUS_FINAL,Denver Broncos,DEN,9,2-5,New York Jets,NYJ,16,5-2,False,25,7,Empower Field at Mile High,Denver,False,CBS
+2022,7,401437800,2022-10-23T20:05Z,STATUS_FINAL,Las Vegas Raiders,LV,38,2-4,Houston Texans,HOU,20,1-4-1,True,58,18,Allegiant Stadium,Las Vegas,False,CBS
+2022,7,401437801,2022-10-23T20:25Z,STATUS_FINAL,Los Angeles Chargers,LAC,23,4-3,Seattle Seahawks,SEA,37,4-3,False,60,14,SoFi Stadium,Inglewood,False,FOX
+2022,7,401437802,2022-10-23T20:25Z,STATUS_FINAL,San Francisco 49ers,SF,23,3-4,Kansas City Chiefs,KC,44,5-2,False,67,21,Levi's Stadium,Santa Clara,False,FOX
+2022,7,401437803,2022-10-24T00:20Z,STATUS_FINAL,Miami Dolphins,MIA,16,4-3,Pittsburgh Steelers,PIT,10,2-5,True,26,6,Hard Rock Stadium,Miami Gardens,False,NBC
+2022,7,401437804,2022-10-25T00:15Z,STATUS_FINAL,New England Patriots,NE,14,3-4,Chicago Bears,CHI,33,3-4,False,47,19,Gillette Stadium,Foxborough,False,ESPN
+2022,8,401437805,2022-10-28T00:15Z,STATUS_FINAL,Tampa Bay Buccaneers,TB,22,3-5,Baltimore Ravens,BAL,27,5-3,False,49,5,Raymond James Stadium,Tampa,False,Prime Video
+2022,8,401435641,2022-10-30T13:30Z,STATUS_FINAL,Jacksonville Jaguars,JAX,17,2-6,Denver Broncos,DEN,21,3-5,False,38,4,Wembley Stadium,London,True,ESPN+
+2022,8,401437806,2022-10-30T17:00Z,STATUS_FINAL,Atlanta Falcons,ATL,37,4-4,Carolina Panthers,CAR,34,2-6,True,71,3,Mercedes-Benz Stadium,Atlanta,False,FOX
+2022,8,401437807,2022-10-30T17:00Z,STATUS_FINAL,Dallas Cowboys,DAL,49,6-2,Chicago Bears,CHI,29,3-5,True,78,20,AT&T Stadium,Arlington,False,FOX
+2022,8,401437808,2022-10-30T17:00Z,STATUS_FINAL,Detroit Lions,DET,27,1-6,Miami Dolphins,MIA,31,5-3,False,58,4,Ford Field,Detroit,False,CBS
+2022,8,401437809,2022-10-30T17:00Z,STATUS_FINAL,Minnesota Vikings,MIN,34,6-1,Arizona Cardinals,ARI,26,3-5,True,60,8,U.S. Bank Stadium,Minneapolis,False,FOX
+2022,8,401437810,2022-10-30T17:00Z,STATUS_FINAL,New Orleans Saints,NO,24,3-5,Las Vegas Raiders,LV,0,2-5,True,24,24,Caesars Superdome,New Orleans,False,CBS
+2022,8,401437811,2022-10-30T17:00Z,STATUS_FINAL,New York Jets,NYJ,17,5-3,New England Patriots,NE,22,4-4,False,39,5,MetLife Stadium,East Rutherford,False,CBS
+2022,8,401437812,2022-10-30T17:00Z,STATUS_FINAL,Philadelphia Eagles,PHI,35,7-0,Pittsburgh Steelers,PIT,13,2-6,True,48,22,Lincoln Financial Field,Philadelphia,False,CBS
+2022,8,401437813,2022-10-30T20:05Z,STATUS_FINAL,Houston Texans,HOU,10,1-5-1,Tennessee Titans,TEN,17,5-2,False,27,7,NRG Stadium,Houston,False,CBS
+2022,8,401437814,2022-10-30T20:25Z,STATUS_FINAL,Indianapolis Colts,IND,16,3-4-1,Washington Commanders,WSH,17,4-4,False,33,1,Lucas Oil Stadium,Indianapolis,False,FOX
+2022,8,401437815,2022-10-30T20:25Z,STATUS_FINAL,Los Angeles Rams,LAR,14,3-4,San Francisco 49ers,SF,31,4-4,False,45,17,SoFi Stadium,Inglewood,False,FOX
+2022,8,401437816,2022-10-30T20:25Z,STATUS_FINAL,Seattle Seahawks,SEA,27,5-3,New York Giants,NYG,13,6-2,True,40,14,Lumen Field,Seattle,False,FOX
+2022,8,401437817,2022-10-31T00:20Z,STATUS_FINAL,Buffalo Bills,BUF,27,6-1,Green Bay Packers,GB,17,3-5,True,44,10,Highmark Stadium,Orchard Park,False,NBC
+2022,8,401437818,2022-11-01T00:15Z,STATUS_FINAL,Cleveland Browns,CLE,32,3-5,Cincinnati Bengals,CIN,13,4-4,True,45,19,Huntington Bank Field,Cleveland,False,ESPN
+2022,9,401437819,2022-11-04T00:15Z,STATUS_FINAL,Houston Texans,HOU,17,1-6-1,Philadelphia Eagles,PHI,29,8-0,False,46,12,NRG Stadium,Houston,False,Prime Video
+2022,9,401437820,2022-11-06T18:00Z,STATUS_FINAL,Atlanta Falcons,ATL,17,4-5,Los Angeles Chargers,LAC,20,5-3,False,37,3,Mercedes-Benz Stadium,Atlanta,False,FOX
+2022,9,401437821,2022-11-06T18:00Z,STATUS_FINAL,Chicago Bears,CHI,32,3-6,Miami Dolphins,MIA,35,6-3,False,67,3,Soldier Field,Chicago,False,CBS
+2022,9,401437822,2022-11-06T18:00Z,STATUS_FINAL,Cincinnati Bengals,CIN,42,5-4,Carolina Panthers,CAR,21,2-7,True,63,21,Paycor Stadium,Cincinnati,False,FOX
+2022,9,401437823,2022-11-06T18:00Z,STATUS_FINAL,Detroit Lions,DET,15,2-6,Green Bay Packers,GB,9,3-6,True,24,6,Ford Field,Detroit,False,FOX
+2022,9,401437825,2022-11-06T18:00Z,STATUS_FINAL,New England Patriots,NE,26,5-4,Indianapolis Colts,IND,3,3-5-1,True,29,23,Gillette Stadium,Foxborough,False,CBS
+2022,9,401437826,2022-11-06T18:00Z,STATUS_FINAL,New York Jets,NYJ,20,6-3,Buffalo Bills,BUF,17,6-2,True,37,3,MetLife Stadium,East Rutherford,False,CBS
+2022,9,401437827,2022-11-06T18:00Z,STATUS_FINAL,Washington Commanders,WSH,17,4-5,Minnesota Vikings,MIN,20,7-1,False,37,3,Northwest Stadium,Landover,False,FOX
+2022,9,401437824,2022-11-06T18:00Z,STATUS_FINAL,Jacksonville Jaguars,JAX,27,3-6,Las Vegas Raiders,LV,20,2-6,True,47,7,EverBank Stadium,Jacksonville,False,CBS
+2022,9,401437828,2022-11-06T21:05Z,STATUS_FINAL,Arizona Cardinals,ARI,21,3-6,Seattle Seahawks,SEA,31,6-3,False,52,10,State Farm Stadium,Glendale,False,FOX
+2022,9,401437829,2022-11-06T21:25Z,STATUS_FINAL,Tampa Bay Buccaneers,TB,16,4-5,Los Angeles Rams,LAR,13,3-5,True,29,3,Raymond James Stadium,Tampa,False,CBS
+2022,9,401437830,2022-11-07T01:20Z,STATUS_FINAL,Kansas City Chiefs,KC,20,6-2,Tennessee Titans,TEN,17,5-3,True,37,3,GEHA Field at Arrowhead Stadium,Kansas City,False,NBC
+2022,9,401437831,2022-11-08T01:15Z,STATUS_FINAL,New Orleans Saints,NO,13,3-6,Baltimore Ravens,BAL,27,6-3,False,40,14,Caesars Superdome,New Orleans,False,ESPN
+2022,10,401437832,2022-11-11T01:15Z,STATUS_FINAL,Carolina Panthers,CAR,25,3-7,Atlanta Falcons,ATL,15,4-6,True,40,10,Bank of America Stadium,Charlotte,False,Prime Video
+2022,10,401435638,2022-11-13T14:30Z,STATUS_FINAL,Tampa Bay Buccaneers,TB,21,5-5,Seattle Seahawks,SEA,16,6-4,True,37,5,Allianz Arena,Munich,True,NFL Net
+2022,10,401437833,2022-11-13T18:00Z,STATUS_FINAL,Buffalo Bills,BUF,30,6-3,Minnesota Vikings,MIN,33,8-1,False,63,3,Highmark Stadium,Orchard Park,False,FOX
+2022,10,401437834,2022-11-13T18:00Z,STATUS_FINAL,Chicago Bears,CHI,30,3-7,Detroit Lions,DET,31,3-6,False,61,1,Soldier Field,Chicago,False,FOX
+2022,10,401437839,2022-11-13T18:00Z,STATUS_FINAL,Tennessee Titans,TEN,17,6-3,Denver Broncos,DEN,10,3-6,True,27,7,Nissan Stadium,Nashville,False,CBS
+2022,10,401437835,2022-11-13T18:00Z,STATUS_FINAL,Kansas City Chiefs,KC,27,7-2,Jacksonville Jaguars,JAX,17,3-7,True,44,10,GEHA Field at Arrowhead Stadium,Kansas City,False,CBS
+2022,10,401437836,2022-11-13T18:00Z,STATUS_FINAL,Miami Dolphins,MIA,39,7-3,Cleveland Browns,CLE,17,3-6,True,56,22,Hard Rock Stadium,Miami Gardens,False,CBS
+2022,10,401437837,2022-11-13T18:00Z,STATUS_FINAL,New York Giants,NYG,24,7-2,Houston Texans,HOU,16,1-7-1,True,40,8,MetLife Stadium,East Rutherford,False,CBS
+2022,10,401437838,2022-11-13T18:00Z,STATUS_FINAL,Pittsburgh Steelers,PIT,20,3-6,New Orleans Saints,NO,10,3-7,True,30,10,Acrisure Stadium,Pittsburgh,False,FOX
+2022,10,401437840,2022-11-13T21:05Z,STATUS_FINAL,Las Vegas Raiders,LV,20,2-7,Indianapolis Colts,IND,25,4-5-1,False,45,5,Allegiant Stadium,Las Vegas,False,CBS
+2022,10,401437131,2022-11-13T21:25Z,STATUS_FINAL,Green Bay Packers,GB,31,4-6,Dallas Cowboys,DAL,28,6-3,True,59,3,Lambeau Field,Green Bay,False,FOX
+2022,10,401437841,2022-11-13T21:25Z,STATUS_FINAL,Los Angeles Rams,LAR,17,3-6,Arizona Cardinals,ARI,27,4-6,False,44,10,SoFi Stadium,Inglewood,False,FOX
+2022,10,401437842,2022-11-14T01:20Z,STATUS_FINAL,San Francisco 49ers,SF,22,5-4,Los Angeles Chargers,LAC,16,5-4,True,38,6,Levi's Stadium,Santa Clara,False,NBC
+2022,10,401437843,2022-11-15T01:15Z,STATUS_FINAL,Philadelphia Eagles,PHI,21,8-1,Washington Commanders,WSH,32,5-5,False,53,11,Lincoln Financial Field,Philadelphia,False,ESPN
+2022,11,401437844,2022-11-18T01:15Z,STATUS_FINAL,Green Bay Packers,GB,17,4-7,Tennessee Titans,TEN,27,7-3,False,44,10,Lambeau Field,Green Bay,False,Prime Video
+2022,11,401437845,2022-11-20T18:00Z,STATUS_FINAL,Atlanta Falcons,ATL,27,5-6,Chicago Bears,CHI,24,3-8,True,51,3,Mercedes-Benz Stadium,Atlanta,False,FOX
+2022,11,401437847,2022-11-20T18:00Z,STATUS_FINAL,Buffalo Bills,BUF,31,7-3,Cleveland Browns,CLE,23,3-7,True,54,8,Ford Field,Detroit,True,CBS
+2022,11,401437849,2022-11-20T18:00Z,STATUS_FINAL,Indianapolis Colts,IND,16,4-6-1,Philadelphia Eagles,PHI,17,9-1,False,33,1,Lucas Oil Stadium,Indianapolis,False,CBS
+2022,11,401437850,2022-11-20T18:00Z,STATUS_FINAL,New England Patriots,NE,10,6-4,New York Jets,NYJ,3,6-4,True,13,7,Gillette Stadium,Foxborough,False,CBS
+2022,11,401437851,2022-11-20T18:00Z,STATUS_FINAL,New Orleans Saints,NO,27,4-7,Los Angeles Rams,LAR,20,3-7,True,47,7,Caesars Superdome,New Orleans,False,FOX
+2022,11,401437852,2022-11-20T18:00Z,STATUS_FINAL,New York Giants,NYG,18,7-3,Detroit Lions,DET,31,4-6,False,49,13,MetLife Stadium,East Rutherford,False,FOX
+2022,11,401437846,2022-11-20T18:00Z,STATUS_FINAL,Baltimore Ravens,BAL,13,7-3,Carolina Panthers,CAR,3,3-8,True,16,10,M&T Bank Stadium,Baltimore,False,FOX
+2022,11,401437848,2022-11-20T18:00Z,STATUS_FINAL,Houston Texans,HOU,10,1-8-1,Washington Commanders,WSH,23,6-5,False,33,13,NRG Stadium,Houston,False,FOX
+2022,11,401437853,2022-11-20T21:05Z,STATUS_FINAL,Denver Broncos,DEN,16,3-7,Las Vegas Raiders,LV,22,3-7,False,38,6,Empower Field at Mile High,Denver,False,FOX
+2022,11,401437855,2022-11-20T21:25Z,STATUS_FINAL,Minnesota Vikings,MIN,3,8-2,Dallas Cowboys,DAL,40,7-3,False,43,37,U.S. Bank Stadium,Minneapolis,False,CBS
+2022,11,401437856,2022-11-20T21:25Z,STATUS_FINAL,Pittsburgh Steelers,PIT,30,3-7,Cincinnati Bengals,CIN,37,6-4,False,67,7,Acrisure Stadium,Pittsburgh,False,CBS
+2022,11,401437854,2022-11-21T01:20Z,STATUS_FINAL,Los Angeles Chargers,LAC,27,5-5,Kansas City Chiefs,KC,30,8-2,False,57,3,SoFi Stadium,Inglewood,False,NBC
+2022,11,401435642,2022-11-22T01:15Z,STATUS_FINAL,Arizona Cardinals,ARI,10,4-7,San Francisco 49ers,SF,38,6-4,False,48,28,Estadio Azteca,Mexico City,True,ESPN
+2022,12,401437857,2022-11-24T17:30Z,STATUS_FINAL,Detroit Lions,DET,25,4-7,Buffalo Bills,BUF,28,8-3,False,53,3,Ford Field,Detroit,False,CBS
+2022,12,401437858,2022-11-24T21:30Z,STATUS_FINAL,Dallas Cowboys,DAL,28,8-3,New York Giants,NYG,20,7-4,True,48,8,AT&T Stadium,Arlington,False,FOX
+2022,12,401437859,2022-11-25T01:20Z,STATUS_FINAL,Minnesota Vikings,MIN,33,9-2,New England Patriots,NE,26,6-5,True,59,7,U.S. Bank Stadium,Minneapolis,False,NBC
+2022,12,401437861,2022-11-27T18:00Z,STATUS_FINAL,Cleveland Browns,CLE,23,4-7,Tampa Bay Buccaneers,TB,17,5-6,True,40,6,Huntington Bank Field,Cleveland,False,FOX
+2022,12,401437865,2022-11-27T18:00Z,STATUS_FINAL,Tennessee Titans,TEN,16,7-4,Cincinnati Bengals,CIN,20,7-4,False,36,4,Nissan Stadium,Nashville,False,CBS
+2022,12,401437863,2022-11-27T18:00Z,STATUS_FINAL,Miami Dolphins,MIA,30,8-3,Houston Texans,HOU,15,1-9-1,True,45,15,Hard Rock Stadium,Miami Gardens,False,CBS
+2022,12,401437864,2022-11-27T18:00Z,STATUS_FINAL,New York Jets,NYJ,31,7-4,Chicago Bears,CHI,10,3-9,True,41,21,MetLife Stadium,East Rutherford,False,FOX
+2022,12,401437866,2022-11-27T18:00Z,STATUS_FINAL,Washington Commanders,WSH,19,7-5,Atlanta Falcons,ATL,13,5-7,True,32,6,Northwest Stadium,Landover,False,FOX
+2022,12,401437860,2022-11-27T18:00Z,STATUS_FINAL,Carolina Panthers,CAR,23,4-8,Denver Broncos,DEN,10,3-8,True,33,13,Bank of America Stadium,Charlotte,False,FOX
+2022,12,401437862,2022-11-27T18:00Z,STATUS_FINAL,Jacksonville Jaguars,JAX,28,4-7,Baltimore Ravens,BAL,27,7-4,True,55,1,EverBank Stadium,Jacksonville,False,CBS
+2022,12,401437867,2022-11-27T21:05Z,STATUS_FINAL,Arizona Cardinals,ARI,24,4-8,Los Angeles Chargers,LAC,25,6-5,False,49,1,State Farm Stadium,Glendale,False,CBS
+2022,12,401437868,2022-11-27T21:05Z,STATUS_FINAL,Seattle Seahawks,SEA,34,6-5,Las Vegas Raiders,LV,40,4-7,False,74,6,Lumen Field,Seattle,False,CBS
+2022,12,401437869,2022-11-27T21:25Z,STATUS_FINAL,Kansas City Chiefs,KC,26,9-2,Los Angeles Rams,LAR,10,3-8,True,36,16,GEHA Field at Arrowhead Stadium,Kansas City,False,FOX
+2022,12,401437870,2022-11-27T21:25Z,STATUS_FINAL,San Francisco 49ers,SF,13,7-4,New Orleans Saints,NO,0,4-8,True,13,13,Levi's Stadium,Santa Clara,False,FOX
+2022,12,401437871,2022-11-28T01:20Z,STATUS_FINAL,Philadelphia Eagles,PHI,40,10-1,Green Bay Packers,GB,33,4-8,True,73,7,Lincoln Financial Field,Philadelphia,False,NBC
+2022,12,401437872,2022-11-29T01:15Z,STATUS_FINAL,Indianapolis Colts,IND,17,4-7-1,Pittsburgh Steelers,PIT,24,4-7,False,41,7,Lucas Oil Stadium,Indianapolis,False,ESPN
+2022,13,401437873,2022-12-02T01:15Z,STATUS_FINAL,New England Patriots,NE,10,6-6,Buffalo Bills,BUF,24,9-3,False,34,14,Gillette Stadium,Foxborough,False,Prime Video
+2022,13,401437874,2022-12-04T18:00Z,STATUS_FINAL,Atlanta Falcons,ATL,16,5-8,Pittsburgh Steelers,PIT,19,5-7,False,35,3,Mercedes-Benz Stadium,Atlanta,False,CBS
+2022,13,401437876,2022-12-04T18:00Z,STATUS_FINAL,Chicago Bears,CHI,19,3-10,Green Bay Packers,GB,28,5-8,False,47,9,Soldier Field,Chicago,False,FOX
+2022,13,401437877,2022-12-04T18:00Z,STATUS_FINAL,Detroit Lions,DET,40,5-7,Jacksonville Jaguars,JAX,14,4-8,True,54,26,Ford Field,Detroit,False,FOX
+2022,13,401437879,2022-12-04T18:00Z,STATUS_FINAL,Minnesota Vikings,MIN,27,10-2,New York Jets,NYJ,22,7-5,True,49,5,U.S. Bank Stadium,Minneapolis,False,CBS
+2022,13,401437880,2022-12-04T18:00Z,STATUS_FINAL,New York Giants,NYG,20,7-4-1,Washington Commanders,WSH,20,7-5-1,False,40,0,MetLife Stadium,East Rutherford,False,FOX
+2022,13,401437881,2022-12-04T18:00Z,STATUS_FINAL,Philadelphia Eagles,PHI,35,11-1,Tennessee Titans,TEN,10,7-5,True,45,25,Lincoln Financial Field,Philadelphia,False,FOX
+2022,13,401437875,2022-12-04T18:00Z,STATUS_FINAL,Baltimore Ravens,BAL,10,8-4,Denver Broncos,DEN,9,3-9,True,19,1,M&T Bank Stadium,Baltimore,False,CBS
+2022,13,401437878,2022-12-04T18:00Z,STATUS_FINAL,Houston Texans,HOU,14,1-10-1,Cleveland Browns,CLE,27,5-7,False,41,13,NRG Stadium,Houston,False,CBS
+2022,13,401437882,2022-12-04T21:05Z,STATUS_FINAL,Los Angeles Rams,LAR,23,3-9,Seattle Seahawks,SEA,27,7-5,False,50,4,SoFi Stadium,Inglewood,False,FOX
+2022,13,401437883,2022-12-04T21:05Z,STATUS_FINAL,San Francisco 49ers,SF,33,8-4,Miami Dolphins,MIA,17,8-4,True,50,16,Levi's Stadium,Santa Clara,False,FOX
+2022,13,401437884,2022-12-04T21:25Z,STATUS_FINAL,Cincinnati Bengals,CIN,27,8-4,Kansas City Chiefs,KC,24,9-3,True,51,3,Paycor Stadium,Cincinnati,False,CBS
+2022,13,401437885,2022-12-04T21:25Z,STATUS_FINAL,Las Vegas Raiders,LV,27,5-7,Los Angeles Chargers,LAC,20,6-6,True,47,7,Allegiant Stadium,Las Vegas,False,CBS
+2022,13,401437886,2022-12-05T01:20Z,STATUS_FINAL,Dallas Cowboys,DAL,54,9-3,Indianapolis Colts,IND,19,4-8-1,True,73,35,AT&T Stadium,Arlington,False,NBC
+2022,13,401437887,2022-12-06T01:15Z,STATUS_FINAL,Tampa Bay Buccaneers,TB,17,6-6,New Orleans Saints,NO,16,4-9,True,33,1,Raymond James Stadium,Tampa,False,ESPN
+2022,14,401437888,2022-12-09T01:15Z,STATUS_FINAL,Los Angeles Rams,LAR,17,4-9,Las Vegas Raiders,LV,16,5-8,True,33,1,SoFi Stadium,Inglewood,False,Prime Video
+2022,14,401437889,2022-12-11T18:00Z,STATUS_FINAL,Buffalo Bills,BUF,20,10-3,New York Jets,NYJ,12,7-6,True,32,8,Highmark Stadium,Orchard Park,False,CBS
+2022,14,401437890,2022-12-11T18:00Z,STATUS_FINAL,Cincinnati Bengals,CIN,23,9-4,Cleveland Browns,CLE,10,5-8,True,33,13,Paycor Stadium,Cincinnati,False,CBS
+2022,14,401437891,2022-12-11T18:00Z,STATUS_FINAL,Dallas Cowboys,DAL,27,10-3,Houston Texans,HOU,23,1-11-1,True,50,4,AT&T Stadium,Arlington,False,FOX
+2022,14,401437892,2022-12-11T18:00Z,STATUS_FINAL,Detroit Lions,DET,34,6-7,Minnesota Vikings,MIN,23,10-3,True,57,11,Ford Field,Detroit,False,FOX
+2022,14,401437895,2022-12-11T18:00Z,STATUS_FINAL,Tennessee Titans,TEN,22,7-6,Jacksonville Jaguars,JAX,36,5-8,False,58,14,Nissan Stadium,Nashville,False,CBS
+2022,14,401437893,2022-12-11T18:00Z,STATUS_FINAL,New York Giants,NYG,22,7-5-1,Philadelphia Eagles,PHI,48,12-1,False,70,26,MetLife Stadium,East Rutherford,False,FOX
+2022,14,401437894,2022-12-11T18:00Z,STATUS_FINAL,Pittsburgh Steelers,PIT,14,5-8,Baltimore Ravens,BAL,16,9-4,False,30,2,Acrisure Stadium,Pittsburgh,False,CBS
+2022,14,401437899,2022-12-11T21:05Z,STATUS_FINAL,Denver Broncos,DEN,28,3-10,Kansas City Chiefs,KC,34,10-3,False,62,6,Empower Field at Mile High,Denver,False,CBS
+2022,14,401437897,2022-12-11T21:25Z,STATUS_FINAL,San Francisco 49ers,SF,35,9-4,Tampa Bay Buccaneers,TB,7,6-7,True,42,28,Levi's Stadium,Santa Clara,False,FOX
+2022,14,401437898,2022-12-11T21:25Z,STATUS_FINAL,Seattle Seahawks,SEA,24,7-6,Carolina Panthers,CAR,30,5-8,False,54,6,Lumen Field,Seattle,False,FOX
+2022,14,401437896,2022-12-12T01:20Z,STATUS_FINAL,Los Angeles Chargers,LAC,23,7-6,Miami Dolphins,MIA,17,8-5,True,40,6,SoFi Stadium,Inglewood,False,NBC
+2022,14,401437900,2022-12-13T01:15Z,STATUS_FINAL,Arizona Cardinals,ARI,13,4-9,New England Patriots,NE,27,7-6,False,40,14,State Farm Stadium,Glendale,False,ESPN
+2022,15,401437901,2022-12-16T01:15Z,STATUS_FINAL,Seattle Seahawks,SEA,13,7-7,San Francisco 49ers,SF,21,10-4,False,34,8,Lumen Field,Seattle,False,Prime Video
+2022,15,401437904,2022-12-17T18:00Z,STATUS_FINAL,Minnesota Vikings,MIN,39,11-3,Indianapolis Colts,IND,36,4-9-1,True,75,3,U.S. Bank Stadium,Minneapolis,False,NFL Net
+2022,15,401437903,2022-12-17T21:40Z,STATUS_FINAL,Cleveland Browns,CLE,13,6-8,Baltimore Ravens,BAL,3,9-5,True,16,10,Huntington Bank Field,Cleveland,False,NFL Net
+2022,15,401437902,2022-12-18T01:15Z,STATUS_FINAL,Buffalo Bills,BUF,32,11-3,Miami Dolphins,MIA,29,8-6,True,61,3,Highmark Stadium,Orchard Park,False,NFL Net
+2022,15,401437908,2022-12-18T18:00Z,STATUS_FINAL,Chicago Bears,CHI,20,3-11,Philadelphia Eagles,PHI,25,13-1,False,45,5,Soldier Field,Chicago,False,FOX
+2022,15,401437905,2022-12-18T18:00Z,STATUS_FINAL,New Orleans Saints,NO,21,5-9,Atlanta Falcons,ATL,18,5-9,True,39,3,Caesars Superdome,New Orleans,False,FOX
+2022,15,401437911,2022-12-18T18:00Z,STATUS_FINAL,New York Jets,NYJ,17,7-7,Detroit Lions,DET,20,7-7,False,37,3,MetLife Stadium,East Rutherford,False,CBS
+2022,15,401437907,2022-12-18T18:00Z,STATUS_FINAL,Carolina Panthers,CAR,16,5-9,Pittsburgh Steelers,PIT,24,6-8,False,40,8,Bank of America Stadium,Charlotte,False,CBS
+2022,15,401437910,2022-12-18T18:00Z,STATUS_FINAL,Jacksonville Jaguars,JAX,40,6-8,Dallas Cowboys,DAL,34,10-4,True,74,6,EverBank Stadium,Jacksonville,False,FOX
+2022,15,401437909,2022-12-18T18:00Z,STATUS_FINAL,Houston Texans,HOU,24,1-12-1,Kansas City Chiefs,KC,30,11-3,False,54,6,NRG Stadium,Houston,False,CBS
+2022,15,401437912,2022-12-18T21:05Z,STATUS_FINAL,Denver Broncos,DEN,24,4-10,Arizona Cardinals,ARI,15,4-10,True,39,9,Empower Field at Mile High,Denver,False,FOX
+2022,15,401437915,2022-12-18T21:05Z,STATUS_FINAL,Las Vegas Raiders,LV,30,6-8,New England Patriots,NE,24,7-7,True,54,6,Allegiant Stadium,Las Vegas,False,FOX
+2022,15,401437913,2022-12-18T21:25Z,STATUS_FINAL,Los Angeles Chargers,LAC,17,8-6,Tennessee Titans,TEN,14,7-7,True,31,3,SoFi Stadium,Inglewood,False,CBS
+2022,15,401437914,2022-12-18T21:25Z,STATUS_FINAL,Tampa Bay Buccaneers,TB,23,6-8,Cincinnati Bengals,CIN,34,10-4,False,57,11,Raymond James Stadium,Tampa,False,CBS
+2022,15,401437906,2022-12-19T01:20Z,STATUS_FINAL,Washington Commanders,WSH,12,7-6-1,New York Giants,NYG,20,8-5-1,False,32,8,Northwest Stadium,Landover,False,NBC
+2022,15,401437916,2022-12-20T01:15Z,STATUS_FINAL,Green Bay Packers,GB,24,6-8,Los Angeles Rams,LAR,12,4-10,True,36,12,Lambeau Field,Green Bay,False,ESPN
+2022,16,401437917,2022-12-23T01:15Z,STATUS_FINAL,New York Jets,NYJ,3,7-8,Jacksonville Jaguars,JAX,19,7-8,False,22,16,MetLife Stadium,East Rutherford,False,Prime Video
+2022,16,401437920,2022-12-24T18:00Z,STATUS_FINAL,Chicago Bears,CHI,13,3-12,Buffalo Bills,BUF,35,12-3,False,48,22,Soldier Field,Chicago,False,CBS
+2022,16,401437921,2022-12-24T18:00Z,STATUS_FINAL,Cleveland Browns,CLE,10,6-9,New Orleans Saints,NO,17,6-9,False,27,7,Huntington Bank Field,Cleveland,False,CBS
+2022,16,401437922,2022-12-24T18:00Z,STATUS_FINAL,Kansas City Chiefs,KC,24,12-3,Seattle Seahawks,SEA,10,7-8,True,34,14,GEHA Field at Arrowhead Stadium,Kansas City,False,FOX
+2022,16,401437923,2022-12-24T18:00Z,STATUS_FINAL,Minnesota Vikings,MIN,27,12-3,New York Giants,NYG,24,8-6-1,True,51,3,U.S. Bank Stadium,Minneapolis,False,FOX
+2022,16,401437924,2022-12-24T18:00Z,STATUS_FINAL,New England Patriots,NE,18,7-8,Cincinnati Bengals,CIN,22,11-4,False,40,4,Gillette Stadium,Foxborough,False,CBS
+2022,16,401437919,2022-12-24T18:00Z,STATUS_FINAL,Carolina Panthers,CAR,37,6-9,Detroit Lions,DET,23,7-8,True,60,14,Bank of America Stadium,Charlotte,False,FOX
+2022,16,401437918,2022-12-24T18:00Z,STATUS_FINAL,Baltimore Ravens,BAL,17,10-5,Atlanta Falcons,ATL,9,5-10,True,26,8,M&T Bank Stadium,Baltimore,False,FOX
+2022,16,401437925,2022-12-24T19:00Z,STATUS_FINAL,Tennessee Titans,TEN,14,7-8,Houston Texans,HOU,19,2-12-1,False,33,5,Nissan Stadium,Nashville,False,CBS
+2022,16,401437926,2022-12-24T21:05Z,STATUS_FINAL,San Francisco 49ers,SF,37,11-4,Washington Commanders,WSH,20,7-7-1,True,57,17,Levi's Stadium,Santa Clara,False,CBS
+2022,16,401437927,2022-12-24T21:25Z,STATUS_FINAL,Dallas Cowboys,DAL,40,11-4,Philadelphia Eagles,PHI,34,13-2,True,74,6,AT&T Stadium,Arlington,False,FOX
+2022,16,401437928,2022-12-25T01:15Z,STATUS_FINAL,Pittsburgh Steelers,PIT,13,7-8,Las Vegas Raiders,LV,10,6-9,True,23,3,Acrisure Stadium,Pittsburgh,False,NFL Net
+2022,16,401437929,2022-12-25T18:00Z,STATUS_FINAL,Miami Dolphins,MIA,20,8-7,Green Bay Packers,GB,26,7-8,False,46,6,Hard Rock Stadium,Miami Gardens,False,FOX
+2022,16,401436983,2022-12-25T21:30Z,STATUS_FINAL,Los Angeles Rams,LAR,51,5-10,Denver Broncos,DEN,14,4-11,True,65,37,SoFi Stadium,Inglewood,False,CBS
+2022,16,401437930,2022-12-26T01:20Z,STATUS_FINAL,Arizona Cardinals,ARI,16,4-11,Tampa Bay Buccaneers,TB,19,7-8,False,35,3,State Farm Stadium,Glendale,False,NBC
+2022,16,401437931,2022-12-27T01:15Z,STATUS_FINAL,Indianapolis Colts,IND,3,4-10-1,Los Angeles Chargers,LAC,20,9-6,False,23,17,Lucas Oil Stadium,Indianapolis,False,ESPN
+2022,17,401437932,2022-12-30T01:15Z,STATUS_FINAL,Tennessee Titans,TEN,13,7-9,Dallas Cowboys,DAL,27,12-4,False,40,14,Nissan Stadium,Nashville,False,Prime Video
+2022,17,401437933,2023-01-01T18:00Z,STATUS_FINAL,Atlanta Falcons,ATL,20,6-10,Arizona Cardinals,ARI,19,4-12,True,39,1,Mercedes-Benz Stadium,Atlanta,False,FOX
+2022,17,401437935,2023-01-01T18:00Z,STATUS_FINAL,Detroit Lions,DET,41,8-8,Chicago Bears,CHI,10,3-13,True,51,31,Ford Field,Detroit,False,FOX
+2022,17,401437937,2023-01-01T18:00Z,STATUS_FINAL,Kansas City Chiefs,KC,27,13-3,Denver Broncos,DEN,24,4-12,True,51,3,GEHA Field at Arrowhead Stadium,Kansas City,False,CBS
+2022,17,401437938,2023-01-01T18:00Z,STATUS_FINAL,New England Patriots,NE,23,8-8,Miami Dolphins,MIA,21,8-8,True,44,2,Gillette Stadium,Foxborough,False,CBS
+2022,17,401437939,2023-01-01T18:00Z,STATUS_FINAL,New York Giants,NYG,38,9-6-1,Indianapolis Colts,IND,10,4-11-1,True,48,28,MetLife Stadium,East Rutherford,False,CBS
+2022,17,401437940,2023-01-01T18:00Z,STATUS_FINAL,Philadelphia Eagles,PHI,10,13-3,New Orleans Saints,NO,20,7-9,False,30,10,Lincoln Financial Field,Philadelphia,False,FOX
+2022,17,401437941,2023-01-01T18:00Z,STATUS_FINAL,Tampa Bay Buccaneers,TB,30,8-8,Carolina Panthers,CAR,24,6-10,True,54,6,Raymond James Stadium,Tampa,False,FOX
+2022,17,401437942,2023-01-01T18:00Z,STATUS_FINAL,Washington Commanders,WSH,10,7-8-1,Cleveland Browns,CLE,24,7-9,False,34,14,Northwest Stadium,Landover,False,FOX
+2022,17,401437936,2023-01-01T18:00Z,STATUS_FINAL,Houston Texans,HOU,3,2-13-1,Jacksonville Jaguars,JAX,31,8-8,False,34,28,NRG Stadium,Houston,False,CBS
+2022,17,401437943,2023-01-01T21:05Z,STATUS_FINAL,Las Vegas Raiders,LV,34,6-10,San Francisco 49ers,SF,37,12-4,False,71,3,Allegiant Stadium,Las Vegas,False,FOX
+2022,17,401437944,2023-01-01T21:05Z,STATUS_FINAL,Seattle Seahawks,SEA,23,8-8,New York Jets,NYJ,6,7-9,True,29,17,Lumen Field,Seattle,False,FOX
+2022,17,401437945,2023-01-01T21:25Z,STATUS_FINAL,Green Bay Packers,GB,41,8-8,Minnesota Vikings,MIN,17,12-4,True,58,24,Lambeau Field,Green Bay,False,CBS
+2022,17,401437946,2023-01-01T21:25Z,STATUS_FINAL,Los Angeles Chargers,LAC,31,10-6,Los Angeles Rams,LAR,10,5-11,True,41,21,SoFi Stadium,Inglewood,False,CBS
+2022,17,401437934,2023-01-02T01:20Z,STATUS_FINAL,Baltimore Ravens,BAL,13,10-6,Pittsburgh Steelers,PIT,16,8-8,False,29,3,M&T Bank Stadium,Baltimore,False,NBC
+2022,17,401437947,2023-01-03T01:30Z,STATUS_CANCELED,Cincinnati Bengals,CIN,0,12-4,Buffalo Bills,BUF,0,13-3,False,0,0,Paycor Stadium,Cincinnati,False,N/A
+2022,18,401437961,2023-01-07T21:30Z,STATUS_FINAL,Las Vegas Raiders,LV,13,6-11,Kansas City Chiefs,KC,31,14-3,False,44,18,Allegiant Stadium,Las Vegas,False,ESPN
+2022,18,401437954,2023-01-08T01:15Z,STATUS_FINAL,Jacksonville Jaguars,JAX,20,9-8,Tennessee Titans,TEN,16,7-10,True,36,4,EverBank Stadium,Jacksonville,False,ESPN
+2022,18,401437948,2023-01-08T18:00Z,STATUS_FINAL,Atlanta Falcons,ATL,30,7-10,Tampa Bay Buccaneers,TB,17,8-9,True,47,13,Mercedes-Benz Stadium,Atlanta,False,FOX
+2022,18,401437949,2023-01-08T18:00Z,STATUS_FINAL,Buffalo Bills,BUF,35,13-3,New England Patriots,NE,23,8-9,True,58,12,Highmark Stadium,Orchard Park,False,CBS
+2022,18,401437950,2023-01-08T18:00Z,STATUS_FINAL,Chicago Bears,CHI,13,3-14,Minnesota Vikings,MIN,29,13-4,False,42,16,Soldier Field,Chicago,False,FOX
+2022,18,401437951,2023-01-08T18:00Z,STATUS_FINAL,Cincinnati Bengals,CIN,27,12-4,Baltimore Ravens,BAL,16,10-7,True,43,11,Paycor Stadium,Cincinnati,False,CBS
+2022,18,401437953,2023-01-08T18:00Z,STATUS_FINAL,Indianapolis Colts,IND,31,4-12-1,Houston Texans,HOU,32,3-13-1,False,63,1,Lucas Oil Stadium,Indianapolis,False,CBS
+2022,18,401437955,2023-01-08T18:00Z,STATUS_FINAL,Miami Dolphins,MIA,11,9-8,New York Jets,NYJ,6,7-10,True,17,5,Hard Rock Stadium,Miami Gardens,False,FOX
+2022,18,401437956,2023-01-08T18:00Z,STATUS_FINAL,New Orleans Saints,NO,7,7-10,Carolina Panthers,CAR,10,7-10,False,17,3,Caesars Superdome,New Orleans,False,FOX
+2022,18,401437958,2023-01-08T18:00Z,STATUS_FINAL,Pittsburgh Steelers,PIT,28,9-8,Cleveland Browns,CLE,14,7-10,True,42,14,Acrisure Stadium,Pittsburgh,False,CBS
+2022,18,401437960,2023-01-08T21:25Z,STATUS_FINAL,Denver Broncos,DEN,31,5-12,Los Angeles Chargers,LAC,28,10-7,True,59,3,Empower Field at Mile High,Denver,False,CBS
+2022,18,401437957,2023-01-08T21:25Z,STATUS_FINAL,Philadelphia Eagles,PHI,22,14-3,New York Giants,NYG,16,9-7-1,True,38,6,Lincoln Financial Field,Philadelphia,False,CBS
+2022,18,401437962,2023-01-08T21:25Z,STATUS_FINAL,San Francisco 49ers,SF,38,13-4,Arizona Cardinals,ARI,13,4-13,True,51,25,Levi's Stadium,Santa Clara,False,FOX
+2022,18,401437963,2023-01-08T21:25Z,STATUS_FINAL,Seattle Seahawks,SEA,19,9-8,Los Angeles Rams,LAR,16,5-12,True,35,3,Lumen Field,Seattle,False,FOX
+2022,18,401437959,2023-01-08T21:25Z,STATUS_FINAL,Washington Commanders,WSH,26,8-8-1,Dallas Cowboys,DAL,6,12-5,True,32,20,Northwest Stadium,Landover,False,FOX
+2022,18,401437952,2023-01-09T01:20Z,STATUS_FINAL,Green Bay Packers,GB,16,8-9,Detroit Lions,DET,20,9-8,False,36,4,Lambeau Field,Green Bay,False,NBC

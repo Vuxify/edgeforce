@@ -1,0 +1,273 @@
+season,week,game_id,date,status,home_team,home_abbr,home_score,home_record,away_team,away_abbr,away_score,away_record,home_win,total_points,point_differential,venue,city,neutral_site,network
+2024,1,401671789,2024-09-06T00:40Z,STATUS_FINAL,Kansas City Chiefs,KC,27,1-0,Baltimore Ravens,BAL,20,0-1,True,47,7,GEHA Field at Arrowhead Stadium,Kansas City,False,NBC
+2024,1,401671805,2024-09-07T00:15Z,STATUS_FINAL,Philadelphia Eagles,PHI,34,1-0,Green Bay Packers,GB,29,0-1,True,63,5,Corinthians Arena,Sao Paulo,True,Peacock
+2024,1,401671744,2024-09-08T17:00Z,STATUS_FINAL,Atlanta Falcons,ATL,10,0-1,Pittsburgh Steelers,PIT,18,1-0,False,28,8,Mercedes-Benz Stadium,Atlanta,False,FOX
+2024,1,401671617,2024-09-08T17:00Z,STATUS_FINAL,Buffalo Bills,BUF,34,1-0,Arizona Cardinals,ARI,28,0-1,True,62,6,Highmark Stadium,Orchard Park,False,CBS
+2024,1,401671719,2024-09-08T17:00Z,STATUS_FINAL,Chicago Bears,CHI,24,1-0,Tennessee Titans,TEN,17,0-1,True,41,7,Soldier Field,Chicago,False,FOX
+2024,1,401671628,2024-09-08T17:00Z,STATUS_FINAL,Cincinnati Bengals,CIN,10,0-1,New England Patriots,NE,16,1-0,False,26,6,Paycor Stadium,Cincinnati,False,CBS
+2024,1,401671861,2024-09-08T17:00Z,STATUS_FINAL,Indianapolis Colts,IND,27,0-1,Houston Texans,HOU,29,1-0,False,56,2,Lucas Oil Stadium,Indianapolis,False,CBS
+2024,1,401671849,2024-09-08T17:00Z,STATUS_FINAL,Miami Dolphins,MIA,20,1-0,Jacksonville Jaguars,JAX,17,0-1,True,37,3,Hard Rock Stadium,Miami Gardens,False,CBS
+2024,1,401671734,2024-09-08T17:00Z,STATUS_FINAL,New Orleans Saints,NO,47,1-0,Carolina Panthers,CAR,10,0-1,True,57,37,Caesars Superdome,New Orleans,False,FOX
+2024,1,401671712,2024-09-08T17:00Z,STATUS_FINAL,New York Giants,NYG,6,0-1,Minnesota Vikings,MIN,28,1-0,False,34,22,MetLife Stadium,East Rutherford,False,FOX
+2024,1,401671659,2024-09-08T20:05Z,STATUS_FINAL,Los Angeles Chargers,LAC,22,1-0,Las Vegas Raiders,LV,10,0-1,True,32,12,SoFi Stadium,Inglewood,False,CBS
+2024,1,401671664,2024-09-08T20:05Z,STATUS_FINAL,Seattle Seahawks,SEA,26,1-0,Denver Broncos,DEN,20,0-1,True,46,6,Lumen Field,Seattle,False,CBS
+2024,1,401671761,2024-09-08T20:25Z,STATUS_FINAL,Cleveland Browns,CLE,17,0-1,Dallas Cowboys,DAL,33,1-0,False,50,16,Huntington Bank Field,Cleveland,False,FOX
+2024,1,401671770,2024-09-08T20:25Z,STATUS_FINAL,Tampa Bay Buccaneers,TB,37,1-0,Washington Commanders,WSH,20,0-1,True,57,17,Raymond James Stadium,Tampa,False,FOX
+2024,1,401671792,2024-09-09T00:20Z,STATUS_FINAL,Detroit Lions,DET,26,1-0,Los Angeles Rams,LAR,20,0-1,True,46,6,Ford Field,Detroit,False,NBC
+2024,1,401671696,2024-09-10T00:15Z,STATUS_FINAL,San Francisco 49ers,SF,32,1-0,New York Jets,NYJ,19,0-1,True,51,13,Levi's Stadium,Santa Clara,False,ESPN
+2024,2,401671807,2024-09-13T00:15Z,STATUS_FINAL,Miami Dolphins,MIA,10,1-1,Buffalo Bills,BUF,31,2-0,False,41,21,Hard Rock Stadium,Miami Gardens,False,Prime Video
+2024,2,401671709,2024-09-15T17:00Z,STATUS_FINAL,Dallas Cowboys,DAL,19,1-1,New Orleans Saints,NO,44,2-0,False,63,25,AT&T Stadium,Arlington,False,FOX
+2024,2,401671721,2024-09-15T17:00Z,STATUS_FINAL,Detroit Lions,DET,16,1-1,Tampa Bay Buccaneers,TB,20,2-0,False,36,4,Ford Field,Detroit,False,FOX
+2024,2,401671723,2024-09-15T17:00Z,STATUS_FINAL,Green Bay Packers,GB,16,1-1,Indianapolis Colts,IND,10,0-2,True,26,6,Lambeau Field,Green Bay,False,FOX
+2024,2,401671636,2024-09-15T17:00Z,STATUS_FINAL,Tennessee Titans,TEN,17,0-2,New York Jets,NYJ,24,1-1,False,41,7,Nissan Stadium,Nashville,False,CBS
+2024,2,401671645,2024-09-15T17:00Z,STATUS_FINAL,Minnesota Vikings,MIN,23,2-0,San Francisco 49ers,SF,17,1-1,True,40,6,U.S. Bank Stadium,Minneapolis,False,CBS
+2024,2,401671702,2024-09-15T17:00Z,STATUS_FINAL,New England Patriots,NE,20,1-1,Seattle Seahawks,SEA,23,2-0,False,43,3,Gillette Stadium,Foxborough,False,FOX
+2024,2,401671716,2024-09-15T17:00Z,STATUS_FINAL,Washington Commanders,WSH,21,1-1,New York Giants,NYG,18,0-2,True,39,3,Northwest Stadium,Landover,False,FOX
+2024,2,401671652,2024-09-15T17:00Z,STATUS_FINAL,Carolina Panthers,CAR,3,0-2,Los Angeles Chargers,LAC,26,2-0,False,29,23,Bank of America Stadium,Charlotte,False,CBS
+2024,2,401671635,2024-09-15T17:00Z,STATUS_FINAL,Jacksonville Jaguars,JAX,13,0-2,Cleveland Browns,CLE,18,1-1,False,31,5,EverBank Stadium,Jacksonville,False,CBS
+2024,2,401671624,2024-09-15T17:00Z,STATUS_FINAL,Baltimore Ravens,BAL,23,0-2,Las Vegas Raiders,LV,26,1-1,False,49,3,M&T Bank Stadium,Baltimore,False,CBS
+2024,2,401671754,2024-09-15T20:05Z,STATUS_FINAL,Arizona Cardinals,ARI,41,1-1,Los Angeles Rams,LAR,10,0-2,True,51,31,State Farm Stadium,Glendale,False,FOX
+2024,2,401671668,2024-09-15T20:25Z,STATUS_FINAL,Denver Broncos,DEN,6,0-2,Pittsburgh Steelers,PIT,13,2-0,False,19,7,Empower Field at Mile High,Denver,False,CBS
+2024,2,401671670,2024-09-15T20:25Z,STATUS_FINAL,Kansas City Chiefs,KC,26,2-0,Cincinnati Bengals,CIN,25,0-2,True,51,1,GEHA Field at Arrowhead Stadium,Kansas City,False,CBS
+2024,2,401671786,2024-09-16T00:20Z,STATUS_FINAL,Houston Texans,HOU,19,2-0,Chicago Bears,CHI,13,1-1,True,32,6,NRG Stadium,Houston,False,NBC
+2024,2,401671691,2024-09-17T00:15Z,STATUS_FINAL,Philadelphia Eagles,PHI,21,1-1,Atlanta Falcons,ATL,22,1-1,False,43,1,Lincoln Financial Field,Philadelphia,False,ESPN
+2024,3,401671808,2024-09-20T00:15Z,STATUS_FINAL,New York Jets,NYJ,24,2-1,New England Patriots,NE,3,1-2,True,27,21,MetLife Stadium,East Rutherford,False,Prime Video
+2024,3,401671855,2024-09-22T17:00Z,STATUS_FINAL,Cleveland Browns,CLE,15,1-2,New York Giants,NYG,21,1-2,False,36,6,Huntington Bank Field,Cleveland,False,FOX
+2024,3,401671823,2024-09-22T17:00Z,STATUS_FINAL,Tennessee Titans,TEN,14,0-3,Green Bay Packers,GB,30,2-1,False,44,16,Nissan Stadium,Nashville,False,FOX
+2024,3,401671865,2024-09-22T17:00Z,STATUS_FINAL,Indianapolis Colts,IND,21,1-2,Chicago Bears,CHI,16,1-2,True,37,5,Lucas Oil Stadium,Indianapolis,False,CBS
+2024,3,401671646,2024-09-22T17:00Z,STATUS_FINAL,Minnesota Vikings,MIN,34,3-0,Houston Texans,HOU,7,2-1,True,41,27,U.S. Bank Stadium,Minneapolis,False,CBS
+2024,3,401671736,2024-09-22T17:00Z,STATUS_FINAL,New Orleans Saints,NO,12,2-1,Philadelphia Eagles,PHI,15,2-1,False,27,3,Caesars Superdome,New Orleans,False,FOX
+2024,3,401671632,2024-09-22T17:00Z,STATUS_FINAL,Pittsburgh Steelers,PIT,20,3-0,Los Angeles Chargers,LAC,10,2-1,True,30,10,Acrisure Stadium,Pittsburgh,False,CBS
+2024,3,401671741,2024-09-22T17:00Z,STATUS_FINAL,Tampa Bay Buccaneers,TB,7,2-1,Denver Broncos,DEN,26,1-2,False,33,19,Raymond James Stadium,Tampa,False,FOX
+2024,3,401671658,2024-09-22T20:05Z,STATUS_FINAL,Las Vegas Raiders,LV,22,1-2,Carolina Panthers,CAR,36,1-2,False,58,14,Allegiant Stadium,Las Vegas,False,CBS
+2024,3,401671662,2024-09-22T20:05Z,STATUS_FINAL,Seattle Seahawks,SEA,24,3-0,Miami Dolphins,MIA,3,1-2,True,27,21,Lumen Field,Seattle,False,CBS
+2024,3,401671763,2024-09-22T20:25Z,STATUS_FINAL,Dallas Cowboys,DAL,25,1-2,Baltimore Ravens,BAL,28,1-2,False,53,3,AT&T Stadium,Arlington,False,FOX
+2024,3,401671772,2024-09-22T20:25Z,STATUS_FINAL,Los Angeles Rams,LAR,27,1-2,San Francisco 49ers,SF,24,1-2,True,51,3,SoFi Stadium,Inglewood,False,FOX
+2024,3,401671771,2024-09-22T20:25Z,STATUS_FINAL,Arizona Cardinals,ARI,13,1-2,Detroit Lions,DET,20,2-1,False,33,7,State Farm Stadium,Glendale,False,FOX
+2024,3,401671793,2024-09-23T00:20Z,STATUS_FINAL,Atlanta Falcons,ATL,17,1-2,Kansas City Chiefs,KC,22,3-0,False,39,5,Mercedes-Benz Stadium,Atlanta,False,NBC
+2024,3,401671682,2024-09-23T23:30Z,STATUS_FINAL,Buffalo Bills,BUF,47,3-0,Jacksonville Jaguars,JAX,10,0-3,True,57,37,Highmark Stadium,Orchard Park,False,ESPN
+2024,3,401671490,2024-09-24T00:15Z,STATUS_FINAL,Cincinnati Bengals,CIN,33,0-3,Washington Commanders,WSH,38,2-1,False,71,5,Paycor Stadium,Cincinnati,False,ABC
+2024,4,401671812,2024-09-27T00:15Z,STATUS_FINAL,New York Giants,NYG,15,1-3,Dallas Cowboys,DAL,20,2-2,False,35,5,MetLife Stadium,East Rutherford,False,Prime Video
+2024,4,401671727,2024-09-29T17:00Z,STATUS_FINAL,Atlanta Falcons,ATL,26,2-2,New Orleans Saints,NO,24,2-2,True,50,2,Mercedes-Benz Stadium,Atlanta,False,FOX
+2024,4,401671871,2024-09-29T17:00Z,STATUS_FINAL,Chicago Bears,CHI,24,2-2,Los Angeles Rams,LAR,18,1-3,True,42,6,Soldier Field,Chicago,False,FOX
+2024,4,401671643,2024-09-29T17:00Z,STATUS_FINAL,Green Bay Packers,GB,29,2-2,Minnesota Vikings,MIN,31,4-0,False,60,2,Lambeau Field,Green Bay,False,CBS
+2024,4,401671867,2024-09-29T17:00Z,STATUS_FINAL,Indianapolis Colts,IND,27,2-2,Pittsburgh Steelers,PIT,24,3-1,True,51,3,Lucas Oil Stadium,Indianapolis,False,CBS
+2024,4,401671622,2024-09-29T17:00Z,STATUS_FINAL,New York Jets,NYJ,9,2-2,Denver Broncos,DEN,10,2-2,False,19,1,MetLife Stadium,East Rutherford,False,CBS
+2024,4,401671740,2024-09-29T17:00Z,STATUS_FINAL,Tampa Bay Buccaneers,TB,33,3-1,Philadelphia Eagles,PHI,16,2-2,True,49,17,Raymond James Stadium,Tampa,False,FOX
+2024,4,401671745,2024-09-29T17:00Z,STATUS_FINAL,Carolina Panthers,CAR,24,1-3,Cincinnati Bengals,CIN,34,1-3,False,58,10,Bank of America Stadium,Charlotte,False,FOX
+2024,4,401671857,2024-09-29T17:00Z,STATUS_FINAL,Houston Texans,HOU,24,3-1,Jacksonville Jaguars,JAX,20,0-4,True,44,4,NRG Stadium,Houston,False,CBS
+2024,4,401671755,2024-09-29T20:05Z,STATUS_FINAL,Arizona Cardinals,ARI,14,1-3,Washington Commanders,WSH,42,3-1,False,56,28,State Farm Stadium,Glendale,False,FOX
+2024,4,401671758,2024-09-29T20:05Z,STATUS_FINAL,San Francisco 49ers,SF,30,2-2,New England Patriots,NE,13,1-3,True,43,17,Levi's Stadium,Santa Clara,False,FOX
+2024,4,401671672,2024-09-29T20:25Z,STATUS_FINAL,Las Vegas Raiders,LV,20,2-2,Cleveland Browns,CLE,16,1-3,True,36,4,Allegiant Stadium,Las Vegas,False,CBS
+2024,4,401671674,2024-09-29T20:25Z,STATUS_FINAL,Los Angeles Chargers,LAC,10,2-2,Kansas City Chiefs,KC,17,4-0,False,27,7,SoFi Stadium,Inglewood,False,CBS
+2024,4,401671783,2024-09-30T00:20Z,STATUS_FINAL,Baltimore Ravens,BAL,35,2-2,Buffalo Bills,BUF,10,3-1,True,45,25,M&T Bank Stadium,Baltimore,False,NBC
+2024,4,401671683,2024-09-30T23:30Z,STATUS_FINAL,Miami Dolphins,MIA,12,1-3,Tennessee Titans,TEN,31,1-3,False,43,19,Hard Rock Stadium,Miami Gardens,False,ESPN
+2024,4,401671491,2024-10-01T00:15Z,STATUS_FINAL,Detroit Lions,DET,42,3-1,Seattle Seahawks,SEA,29,3-1,True,71,13,Ford Field,Detroit,False,ABC
+2024,5,401671815,2024-10-04T00:15Z,STATUS_FINAL,Atlanta Falcons,ATL,36,3-2,Tampa Bay Buccaneers,TB,30,3-2,True,66,6,Mercedes-Benz Stadium,Atlanta,False,Prime Video
+2024,5,401671804,2024-10-06T13:30Z,STATUS_FINAL,Minnesota Vikings,MIN,23,5-0,New York Jets,NYJ,17,2-3,True,40,6,Tottenham Hotspur Stadium,London,True,NFL Net
+2024,5,401671872,2024-10-06T17:00Z,STATUS_FINAL,Chicago Bears,CHI,36,3-2,Carolina Panthers,CAR,10,1-4,True,46,26,Soldier Field,Chicago,False,FOX
+2024,5,401671626,2024-10-06T17:00Z,STATUS_FINAL,Cincinnati Bengals,CIN,38,1-4,Baltimore Ravens,BAL,41,3-2,False,79,3,Paycor Stadium,Cincinnati,False,CBS
+2024,5,401671700,2024-10-06T17:00Z,STATUS_FINAL,New England Patriots,NE,10,1-4,Miami Dolphins,MIA,15,2-3,False,25,5,Gillette Stadium,Foxborough,False,FOX
+2024,5,401671718,2024-10-06T17:00Z,STATUS_FINAL,Washington Commanders,WSH,34,4-1,Cleveland Browns,CLE,13,1-4,True,47,21,Northwest Stadium,Landover,False,FOX
+2024,5,401671633,2024-10-06T17:00Z,STATUS_FINAL,Jacksonville Jaguars,JAX,37,1-4,Indianapolis Colts,IND,34,2-3,True,71,3,EverBank Stadium,Jacksonville,False,CBS
+2024,5,401671859,2024-10-06T17:00Z,STATUS_FINAL,Houston Texans,HOU,23,4-1,Buffalo Bills,BUF,20,3-2,True,43,3,NRG Stadium,Houston,False,CBS
+2024,5,401671747,2024-10-06T20:05Z,STATUS_FINAL,Denver Broncos,DEN,34,3-2,Las Vegas Raiders,LV,18,2-3,True,52,16,Empower Field at Mile High,Denver,False,FOX
+2024,5,401671756,2024-10-06T20:05Z,STATUS_FINAL,San Francisco 49ers,SF,23,2-3,Arizona Cardinals,ARI,24,2-3,False,47,1,Levi's Stadium,Santa Clara,False,FOX
+2024,5,401671679,2024-10-06T20:25Z,STATUS_FINAL,Los Angeles Rams,LAR,19,1-4,Green Bay Packers,GB,24,3-2,False,43,5,SoFi Stadium,Inglewood,False,CBS
+2024,5,401671680,2024-10-06T20:25Z,STATUS_FINAL,Seattle Seahawks,SEA,20,3-2,New York Giants,NYG,29,2-3,False,49,9,Lumen Field,Seattle,False,CBS
+2024,5,401671784,2024-10-07T01:45Z,STATUS_FINAL,Pittsburgh Steelers,PIT,17,3-2,Dallas Cowboys,DAL,20,3-2,False,37,3,Acrisure Stadium,Pittsburgh,False,NBC
+2024,5,401671687,2024-10-08T00:15Z,STATUS_FINAL,Kansas City Chiefs,KC,26,5-0,New Orleans Saints,NO,13,2-3,True,39,13,GEHA Field at Arrowhead Stadium,Kansas City,False,ESPN
+2024,6,401671819,2024-10-11T00:15Z,STATUS_FINAL,Seattle Seahawks,SEA,24,3-3,San Francisco 49ers,SF,36,3-3,False,60,12,Lumen Field,Seattle,False,Prime Video
+2024,6,401671802,2024-10-13T13:30Z,STATUS_FINAL,Chicago Bears,CHI,35,4-2,Jacksonville Jaguars,JAX,16,1-5,True,51,19,Tottenham Hotspur Stadium,London,True,NFL Net
+2024,6,401671722,2024-10-13T17:00Z,STATUS_FINAL,Green Bay Packers,GB,34,4-2,Arizona Cardinals,ARI,13,2-4,True,47,21,Lambeau Field,Green Bay,False,FOX
+2024,6,401671820,2024-10-13T17:00Z,STATUS_FINAL,Tennessee Titans,TEN,17,1-4,Indianapolis Colts,IND,20,3-3,False,37,3,Nissan Stadium,Nashville,False,CBS
+2024,6,401671619,2024-10-13T17:00Z,STATUS_FINAL,New England Patriots,NE,21,1-5,Houston Texans,HOU,41,5-1,False,62,20,Gillette Stadium,Foxborough,False,CBS
+2024,6,401671735,2024-10-13T17:00Z,STATUS_FINAL,New Orleans Saints,NO,27,2-4,Tampa Bay Buccaneers,TB,51,4-2,False,78,24,Caesars Superdome,New Orleans,False,FOX
+2024,6,401671714,2024-10-13T17:00Z,STATUS_FINAL,Philadelphia Eagles,PHI,20,3-2,Cleveland Browns,CLE,16,1-5,True,36,4,Lincoln Financial Field,Philadelphia,False,FOX
+2024,6,401671625,2024-10-13T17:00Z,STATUS_FINAL,Baltimore Ravens,BAL,30,4-2,Washington Commanders,WSH,23,4-2,True,53,7,M&T Bank Stadium,Baltimore,False,CBS
+2024,6,401671655,2024-10-13T20:05Z,STATUS_FINAL,Denver Broncos,DEN,16,3-3,Los Angeles Chargers,LAC,23,3-2,False,39,7,Empower Field at Mile High,Denver,False,CBS
+2024,6,401671657,2024-10-13T20:05Z,STATUS_FINAL,Las Vegas Raiders,LV,13,2-4,Pittsburgh Steelers,PIT,32,4-2,False,45,19,Allegiant Stadium,Las Vegas,False,CBS
+2024,6,401671764,2024-10-13T20:25Z,STATUS_FINAL,Dallas Cowboys,DAL,9,3-3,Detroit Lions,DET,47,4-1,False,56,38,AT&T Stadium,Arlington,False,FOX
+2024,6,401671769,2024-10-13T20:25Z,STATUS_FINAL,Carolina Panthers,CAR,20,1-5,Atlanta Falcons,ATL,38,4-2,False,58,18,Bank of America Stadium,Charlotte,False,FOX
+2024,6,401671791,2024-10-14T00:20Z,STATUS_FINAL,New York Giants,NYG,7,2-4,Cincinnati Bengals,CIN,17,2-4,False,24,10,MetLife Stadium,East Rutherford,False,NBC
+2024,6,401671684,2024-10-15T00:15Z,STATUS_FINAL,New York Jets,NYJ,20,2-4,Buffalo Bills,BUF,23,4-2,False,43,3,MetLife Stadium,East Rutherford,False,ESPN
+2024,7,401671816,2024-10-18T00:15Z,STATUS_FINAL,New Orleans Saints,NO,10,2-5,Denver Broncos,DEN,33,4-3,False,43,23,Caesars Superdome,New Orleans,False,Prime Video
+2024,7,401671801,2024-10-20T13:30Z,STATUS_FINAL,Jacksonville Jaguars,JAX,32,2-5,New England Patriots,NE,16,1-6,True,48,16,Wembley Stadium,London,True,NFL Net
+2024,7,401671730,2024-10-20T17:00Z,STATUS_FINAL,Atlanta Falcons,ATL,14,4-3,Seattle Seahawks,SEA,34,4-3,False,48,20,Mercedes-Benz Stadium,Atlanta,False,FOX
+2024,7,401671616,2024-10-20T17:00Z,STATUS_FINAL,Buffalo Bills,BUF,34,5-2,Tennessee Titans,TEN,10,1-5,True,44,24,Highmark Stadium,Orchard Park,False,CBS
+2024,7,401671853,2024-10-20T17:00Z,STATUS_FINAL,Cleveland Browns,CLE,14,1-6,Cincinnati Bengals,CIN,21,3-4,False,35,7,Huntington Bank Field,Cleveland,False,CBS
+2024,7,401671644,2024-10-20T17:00Z,STATUS_FINAL,Green Bay Packers,GB,24,5-2,Houston Texans,HOU,22,5-2,True,46,2,Lambeau Field,Green Bay,False,CBS
+2024,7,401671864,2024-10-20T17:00Z,STATUS_FINAL,Indianapolis Colts,IND,16,4-3,Miami Dolphins,MIA,10,2-4,True,26,6,Lucas Oil Stadium,Indianapolis,False,FOX
+2024,7,401671724,2024-10-20T17:00Z,STATUS_FINAL,Minnesota Vikings,MIN,29,5-1,Detroit Lions,DET,31,5-1,False,60,2,U.S. Bank Stadium,Minneapolis,False,FOX
+2024,7,401671710,2024-10-20T17:00Z,STATUS_FINAL,New York Giants,NYG,3,2-5,Philadelphia Eagles,PHI,28,4-2,False,31,25,MetLife Stadium,East Rutherford,False,FOX
+2024,7,401671663,2024-10-20T20:05Z,STATUS_FINAL,Los Angeles Rams,LAR,20,2-4,Las Vegas Raiders,LV,15,2-5,True,35,5,SoFi Stadium,Inglewood,False,CBS
+2024,7,401671640,2024-10-20T20:05Z,STATUS_FINAL,Washington Commanders,WSH,40,5-2,Carolina Panthers,CAR,7,1-6,True,47,33,Northwest Stadium,Landover,False,CBS
+2024,7,401671777,2024-10-20T20:25Z,STATUS_FINAL,San Francisco 49ers,SF,18,3-4,Kansas City Chiefs,KC,28,6-0,False,46,10,Levi's Stadium,Santa Clara,False,FOX
+2024,7,401671785,2024-10-21T00:20Z,STATUS_FINAL,Pittsburgh Steelers,PIT,37,5-2,New York Jets,NYJ,15,2-5,True,52,22,Acrisure Stadium,Pittsburgh,False,NBC
+2024,7,401671695,2024-10-22T00:15Z,STATUS_FINAL,Tampa Bay Buccaneers,TB,31,4-3,Baltimore Ravens,BAL,41,5-2,False,72,10,Raymond James Stadium,Tampa,False,ESPN
+2024,7,401671699,2024-10-22T01:00Z,STATUS_FINAL,Arizona Cardinals,ARI,17,3-4,Los Angeles Chargers,LAC,15,3-3,True,32,2,State Farm Stadium,Glendale,False,ESPN+
+2024,8,401671817,2024-10-25T00:15Z,STATUS_FINAL,Los Angeles Rams,LAR,30,3-4,Minnesota Vikings,MIN,20,5-2,True,50,10,SoFi Stadium,Inglewood,False,Prime Video
+2024,8,401671667,2024-10-27T17:00Z,STATUS_FINAL,Cincinnati Bengals,CIN,17,3-5,Philadelphia Eagles,PHI,37,5-2,False,54,20,Paycor Stadium,Cincinnati,False,CBS
+2024,8,401671852,2024-10-27T17:00Z,STATUS_FINAL,Cleveland Browns,CLE,29,2-6,Baltimore Ravens,BAL,24,5-3,True,53,5,Huntington Bank Field,Cleveland,False,CBS
+2024,8,401671720,2024-10-27T17:00Z,STATUS_FINAL,Detroit Lions,DET,52,6-1,Tennessee Titans,TEN,14,1-6,True,66,38,Ford Field,Detroit,False,FOX
+2024,8,401671850,2024-10-27T17:00Z,STATUS_FINAL,Miami Dolphins,MIA,27,2-5,Arizona Cardinals,ARI,28,4-4,False,55,1,Hard Rock Stadium,Miami Gardens,False,FOX
+2024,8,401671618,2024-10-27T17:00Z,STATUS_FINAL,New England Patriots,NE,25,2-6,New York Jets,NYJ,22,2-6,True,47,3,Gillette Stadium,Foxborough,False,CBS
+2024,8,401671739,2024-10-27T17:00Z,STATUS_FINAL,Tampa Bay Buccaneers,TB,26,4-4,Atlanta Falcons,ATL,31,5-3,False,57,5,Raymond James Stadium,Tampa,False,FOX
+2024,8,401671707,2024-10-27T17:00Z,STATUS_FINAL,Jacksonville Jaguars,JAX,27,2-6,Green Bay Packers,GB,30,6-2,False,57,3,EverBank Stadium,Jacksonville,False,FOX
+2024,8,401671856,2024-10-27T17:00Z,STATUS_FINAL,Houston Texans,HOU,23,6-2,Indianapolis Colts,IND,20,4-4,True,43,3,NRG Stadium,Houston,False,CBS
+2024,8,401671750,2024-10-27T20:05Z,STATUS_FINAL,Los Angeles Chargers,LAC,26,4-3,New Orleans Saints,NO,8,2-6,True,34,18,SoFi Stadium,Inglewood,False,FOX
+2024,8,401671760,2024-10-27T20:05Z,STATUS_FINAL,Seattle Seahawks,SEA,10,4-4,Buffalo Bills,BUF,31,6-2,False,41,21,Lumen Field,Seattle,False,FOX
+2024,8,401671600,2024-10-27T20:25Z,STATUS_FINAL,Denver Broncos,DEN,28,5-3,Carolina Panthers,CAR,14,1-7,True,42,14,Empower Field at Mile High,Denver,False,CBS
+2024,8,401671671,2024-10-27T20:25Z,STATUS_FINAL,Las Vegas Raiders,LV,20,2-6,Kansas City Chiefs,KC,27,7-0,False,47,7,Allegiant Stadium,Las Vegas,False,CBS
+2024,8,401671599,2024-10-27T20:25Z,STATUS_FINAL,Washington Commanders,WSH,18,6-2,Chicago Bears,CHI,15,4-3,True,33,3,Northwest Stadium,Landover,False,CBS
+2024,8,401671795,2024-10-28T00:20Z,STATUS_FINAL,San Francisco 49ers,SF,30,4-4,Dallas Cowboys,DAL,24,3-4,True,54,6,Levi's Stadium,Santa Clara,False,NBC
+2024,8,401671685,2024-10-29T00:15Z,STATUS_FINAL,Pittsburgh Steelers,PIT,26,6-2,New York Giants,NYG,18,2-6,True,44,8,Acrisure Stadium,Pittsburgh,False,ESPN
+2024,9,401671809,2024-11-01T00:15Z,STATUS_FINAL,New York Jets,NYJ,21,3-6,Houston Texans,HOU,13,6-3,True,34,8,MetLife Stadium,East Rutherford,False,Prime Video
+2024,9,401671728,2024-11-03T18:00Z,STATUS_FINAL,Atlanta Falcons,ATL,27,6-3,Dallas Cowboys,DAL,21,3-5,True,48,6,Mercedes-Benz Stadium,Atlanta,False,FOX
+2024,9,401671493,2024-11-03T18:00Z,STATUS_FINAL,Buffalo Bills,BUF,30,7-2,Miami Dolphins,MIA,27,2-6,True,57,3,Highmark Stadium,Orchard Park,False,CBS
+2024,9,401671704,2024-11-03T18:00Z,STATUS_FINAL,Cincinnati Bengals,CIN,41,4-5,Las Vegas Raiders,LV,24,2-7,True,65,17,Paycor Stadium,Cincinnati,False,FOX
+2024,9,401671629,2024-11-03T18:00Z,STATUS_FINAL,Cleveland Browns,CLE,10,2-7,Los Angeles Chargers,LAC,27,5-3,False,37,17,Huntington Bank Field,Cleveland,False,CBS
+2024,9,401671822,2024-11-03T18:00Z,STATUS_FINAL,Tennessee Titans,TEN,20,2-6,New England Patriots,NE,17,2-7,True,37,3,Nissan Stadium,Nashville,False,FOX
+2024,9,401671711,2024-11-03T18:00Z,STATUS_FINAL,New York Giants,NYG,22,2-7,Washington Commanders,WSH,27,7-2,False,49,5,MetLife Stadium,East Rutherford,False,FOX
+2024,9,401671650,2024-11-03T18:00Z,STATUS_FINAL,Carolina Panthers,CAR,23,2-7,New Orleans Saints,NO,22,2-7,True,45,1,Bank of America Stadium,Charlotte,False,CBS
+2024,9,401671623,2024-11-03T18:00Z,STATUS_FINAL,Baltimore Ravens,BAL,41,6-3,Denver Broncos,DEN,10,5-4,True,51,31,M&T Bank Stadium,Baltimore,False,CBS
+2024,9,401671797,2024-11-03T21:05Z,STATUS_FINAL,Philadelphia Eagles,PHI,28,6-2,Jacksonville Jaguars,JAX,23,2-7,True,51,5,Lincoln Financial Field,Philadelphia,False,CBS
+2024,9,401671661,2024-11-03T21:05Z,STATUS_FINAL,Arizona Cardinals,ARI,29,5-4,Chicago Bears,CHI,9,4-4,True,38,20,State Farm Stadium,Glendale,False,CBS
+2024,9,401671767,2024-11-03T21:25Z,STATUS_FINAL,Green Bay Packers,GB,14,6-3,Detroit Lions,DET,24,7-1,False,38,10,Lambeau Field,Green Bay,False,FOX
+2024,9,401671776,2024-11-03T21:25Z,STATUS_FINAL,Seattle Seahawks,SEA,20,4-5,Los Angeles Rams,LAR,26,4-4,False,46,6,Lumen Field,Seattle,False,FOX
+2024,9,401671647,2024-11-04T01:20Z,STATUS_FINAL,Minnesota Vikings,MIN,21,6-2,Indianapolis Colts,IND,13,4-5,True,34,8,U.S. Bank Stadium,Minneapolis,False,NBC
+2024,9,401671688,2024-11-05T01:15Z,STATUS_FINAL,Kansas City Chiefs,KC,30,8-0,Tampa Bay Buccaneers,TB,24,4-5,True,54,6,GEHA Field at Arrowhead Stadium,Kansas City,False,ESPN
+2024,10,401671810,2024-11-08T01:15Z,STATUS_FINAL,Baltimore Ravens,BAL,35,7-3,Cincinnati Bengals,CIN,34,4-6,True,69,1,M&T Bank Stadium,Baltimore,False,Prime Video
+2024,10,401671803,2024-11-10T14:30Z,STATUS_FINAL,Carolina Panthers,CAR,20,3-7,New York Giants,NYG,17,2-8,True,37,3,Allianz Arena,Munich,True,NFL Net
+2024,10,401671873,2024-11-10T18:00Z,STATUS_FINAL,Chicago Bears,CHI,3,4-5,New England Patriots,NE,19,3-7,False,22,16,Soldier Field,Chicago,False,FOX
+2024,10,401671863,2024-11-10T18:00Z,STATUS_FINAL,Indianapolis Colts,IND,20,4-6,Buffalo Bills,BUF,30,8-2,False,50,10,Lucas Oil Stadium,Indianapolis,False,CBS
+2024,10,401671637,2024-11-10T18:00Z,STATUS_FINAL,Kansas City Chiefs,KC,16,9-0,Denver Broncos,DEN,14,5-5,True,30,2,GEHA Field at Arrowhead Stadium,Kansas City,False,CBS
+2024,10,401671733,2024-11-10T18:00Z,STATUS_FINAL,New Orleans Saints,NO,20,3-7,Atlanta Falcons,ATL,17,6-4,True,37,3,Caesars Superdome,New Orleans,False,FOX
+2024,10,401671742,2024-11-10T18:00Z,STATUS_FINAL,Tampa Bay Buccaneers,TB,20,4-6,San Francisco 49ers,SF,23,5-4,False,43,3,Raymond James Stadium,Tampa,False,FOX
+2024,10,401671641,2024-11-10T18:00Z,STATUS_FINAL,Washington Commanders,WSH,27,7-3,Pittsburgh Steelers,PIT,28,7-2,False,55,1,Northwest Stadium,Landover,False,CBS
+2024,10,401671708,2024-11-10T18:00Z,STATUS_FINAL,Jacksonville Jaguars,JAX,7,2-8,Minnesota Vikings,MIN,12,7-2,False,19,5,EverBank Stadium,Jacksonville,False,FOX
+2024,10,401671751,2024-11-10T21:05Z,STATUS_FINAL,Los Angeles Chargers,LAC,27,6-3,Tennessee Titans,TEN,17,2-7,True,44,10,SoFi Stadium,Inglewood,False,FOX
+2024,10,401671676,2024-11-10T21:25Z,STATUS_FINAL,Dallas Cowboys,DAL,6,3-6,Philadelphia Eagles,PHI,34,7-2,False,40,28,AT&T Stadium,Arlington,False,CBS
+2024,10,401671678,2024-11-10T21:25Z,STATUS_FINAL,Arizona Cardinals,ARI,31,6-4,New York Jets,NYJ,6,3-7,True,37,25,State Farm Stadium,Glendale,False,CBS
+2024,10,401671787,2024-11-11T01:20Z,STATUS_FINAL,Houston Texans,HOU,23,6-4,Detroit Lions,DET,26,8-1,False,49,3,NRG Stadium,Houston,False,NBC
+2024,10,401671693,2024-11-12T01:15Z,STATUS_FINAL,Los Angeles Rams,LAR,15,4-5,Miami Dolphins,MIA,23,3-6,False,38,8,SoFi Stadium,Inglewood,False,ESPN
+2024,11,401671813,2024-11-15T01:15Z,STATUS_FINAL,Philadelphia Eagles,PHI,26,8-2,Washington Commanders,WSH,18,7-4,True,44,8,Lincoln Financial Field,Philadelphia,False,Prime Video
+2024,11,401671869,2024-11-17T18:00Z,STATUS_FINAL,Chicago Bears,CHI,19,4-6,Green Bay Packers,GB,20,7-3,False,39,1,Soldier Field,Chicago,False,FOX
+2024,11,401671642,2024-11-17T18:00Z,STATUS_FINAL,Detroit Lions,DET,52,9-1,Jacksonville Jaguars,JAX,6,2-9,True,58,46,Ford Field,Detroit,False,CBS
+2024,11,401671824,2024-11-17T18:00Z,STATUS_FINAL,Tennessee Titans,TEN,13,2-8,Minnesota Vikings,MIN,23,8-2,False,36,10,Nissan Stadium,Nashville,False,CBS
+2024,11,401671851,2024-11-17T18:00Z,STATUS_FINAL,Miami Dolphins,MIA,34,4-6,Las Vegas Raiders,LV,19,2-8,True,53,15,Hard Rock Stadium,Miami Gardens,False,CBS
+2024,11,401671701,2024-11-17T18:00Z,STATUS_FINAL,New England Patriots,NE,22,3-8,Los Angeles Rams,LAR,28,5-5,False,50,6,Gillette Stadium,Foxborough,False,FOX
+2024,11,401671746,2024-11-17T18:00Z,STATUS_FINAL,New Orleans Saints,NO,35,4-7,Cleveland Browns,CLE,14,2-8,True,49,21,Caesars Superdome,New Orleans,False,FOX
+2024,11,401671782,2024-11-17T18:00Z,STATUS_FINAL,New York Jets,NYJ,27,3-8,Indianapolis Colts,IND,28,5-6,False,55,1,MetLife Stadium,East Rutherford,False,CBS
+2024,11,401671630,2024-11-17T18:00Z,STATUS_FINAL,Pittsburgh Steelers,PIT,18,8-2,Baltimore Ravens,BAL,16,7-4,True,34,2,Acrisure Stadium,Pittsburgh,False,CBS
+2024,11,401671748,2024-11-17T21:05Z,STATUS_FINAL,Denver Broncos,DEN,38,6-5,Atlanta Falcons,ATL,6,6-5,True,44,32,Empower Field at Mile High,Denver,False,FOX
+2024,11,401671757,2024-11-17T21:05Z,STATUS_FINAL,San Francisco 49ers,SF,17,5-5,Seattle Seahawks,SEA,20,5-5,False,37,3,Levi's Stadium,Santa Clara,False,FOX
+2024,11,401671665,2024-11-17T21:25Z,STATUS_FINAL,Buffalo Bills,BUF,30,9-2,Kansas City Chiefs,KC,21,9-1,True,51,9,Highmark Stadium,Orchard Park,False,CBS
+2024,11,401671675,2024-11-18T01:20Z,STATUS_FINAL,Los Angeles Chargers,LAC,34,7-3,Cincinnati Bengals,CIN,27,4-7,True,61,7,SoFi Stadium,Inglewood,False,NBC
+2024,11,401671694,2024-11-19T01:15Z,STATUS_FINAL,Dallas Cowboys,DAL,10,3-7,Houston Texans,HOU,34,7-4,False,44,24,AT&T Stadium,Arlington,False,ESPN
+2024,12,401671875,2024-11-22T01:15Z,STATUS_FINAL,Cleveland Browns,CLE,24,3-8,Pittsburgh Steelers,PIT,19,8-3,True,43,5,Huntington Bank Field,Cleveland,False,Prime Video
+2024,12,401671870,2024-11-24T18:00Z,STATUS_FINAL,Chicago Bears,CHI,27,4-7,Minnesota Vikings,MIN,30,9-2,False,57,3,Soldier Field,Chicago,False,FOX
+2024,12,401671866,2024-11-24T18:00Z,STATUS_FINAL,Indianapolis Colts,IND,6,5-7,Detroit Lions,DET,24,10-1,False,30,18,Lucas Oil Stadium,Indianapolis,False,FOX
+2024,12,401671847,2024-11-24T18:00Z,STATUS_FINAL,Miami Dolphins,MIA,34,5-6,New England Patriots,NE,15,3-9,True,49,19,Hard Rock Stadium,Miami Gardens,False,CBS
+2024,12,401671638,2024-11-24T18:00Z,STATUS_FINAL,New York Giants,NYG,7,2-9,Tampa Bay Buccaneers,TB,30,5-6,False,37,23,MetLife Stadium,East Rutherford,False,CBS
+2024,12,401671715,2024-11-24T18:00Z,STATUS_FINAL,Washington Commanders,WSH,26,7-5,Dallas Cowboys,DAL,34,4-7,False,60,8,Northwest Stadium,Landover,False,FOX
+2024,12,401671651,2024-11-24T18:00Z,STATUS_FINAL,Carolina Panthers,CAR,27,3-8,Kansas City Chiefs,KC,30,10-1,False,57,3,Bank of America Stadium,Charlotte,False,CBS
+2024,12,401671858,2024-11-24T18:00Z,STATUS_FINAL,Houston Texans,HOU,27,7-5,Tennessee Titans,TEN,32,3-8,False,59,5,NRG Stadium,Houston,False,CBS
+2024,12,401671656,2024-11-24T21:05Z,STATUS_FINAL,Las Vegas Raiders,LV,19,2-9,Denver Broncos,DEN,29,7-5,False,48,10,Allegiant Stadium,Las Vegas,False,CBS
+2024,12,401671768,2024-11-24T21:25Z,STATUS_FINAL,Green Bay Packers,GB,38,8-3,San Francisco 49ers,SF,10,5-6,True,48,28,Lambeau Field,Green Bay,False,FOX
+2024,12,401671775,2024-11-24T21:25Z,STATUS_FINAL,Seattle Seahawks,SEA,16,6-5,Arizona Cardinals,ARI,6,6-5,True,22,10,Lumen Field,Seattle,False,FOX
+2024,12,401671794,2024-11-25T01:20Z,STATUS_FINAL,Los Angeles Rams,LAR,20,5-6,Philadelphia Eagles,PHI,37,9-2,False,57,17,SoFi Stadium,Inglewood,False,NBC
+2024,12,401671689,2024-11-26T01:15Z,STATUS_FINAL,Los Angeles Chargers,LAC,23,7-4,Baltimore Ravens,BAL,30,8-4,False,53,7,SoFi Stadium,Inglewood,False,ESPN
+2024,13,401671492,2024-11-28T17:30Z,STATUS_FINAL,Detroit Lions,DET,23,11-1,Chicago Bears,CHI,20,4-8,True,43,3,Ford Field,Detroit,False,CBS
+2024,13,401671779,2024-11-28T21:30Z,STATUS_FINAL,Dallas Cowboys,DAL,27,5-7,New York Giants,NYG,20,2-10,True,47,7,AT&T Stadium,Arlington,False,FOX
+2024,13,401671798,2024-11-29T01:20Z,STATUS_FINAL,Green Bay Packers,GB,30,9-3,Miami Dolphins,MIA,17,5-7,True,47,13,Lambeau Field,Green Bay,False,NBC
+2024,13,401671806,2024-11-29T20:00Z,STATUS_FINAL,Kansas City Chiefs,KC,19,11-1,Las Vegas Raiders,LV,17,2-10,True,36,2,GEHA Field at Arrowhead Stadium,Kansas City,False,Prime Video
+2024,13,401671649,2024-12-01T18:00Z,STATUS_FINAL,Atlanta Falcons,ATL,13,6-6,Los Angeles Chargers,LAC,17,8-4,False,30,4,Mercedes-Benz Stadium,Atlanta,False,CBS
+2024,13,401671627,2024-12-01T18:00Z,STATUS_FINAL,Cincinnati Bengals,CIN,38,4-8,Pittsburgh Steelers,PIT,44,9-3,False,82,6,Paycor Stadium,Cincinnati,False,CBS
+2024,13,401671726,2024-12-01T18:00Z,STATUS_FINAL,Minnesota Vikings,MIN,23,10-2,Arizona Cardinals,ARI,22,6-6,True,45,1,U.S. Bank Stadium,Minneapolis,False,FOX
+2024,13,401671620,2024-12-01T18:00Z,STATUS_FINAL,New England Patriots,NE,24,3-10,Indianapolis Colts,IND,25,6-7,False,49,1,Gillette Stadium,Foxborough,False,CBS
+2024,13,401671703,2024-12-01T18:00Z,STATUS_FINAL,New York Jets,NYJ,21,3-9,Seattle Seahawks,SEA,26,7-5,False,47,5,MetLife Stadium,East Rutherford,False,FOX
+2024,13,401671743,2024-12-01T18:00Z,STATUS_FINAL,Washington Commanders,WSH,42,8-5,Tennessee Titans,TEN,19,3-9,True,61,23,Northwest Stadium,Landover,False,CBS
+2024,13,401671705,2024-12-01T18:00Z,STATUS_FINAL,Jacksonville Jaguars,JAX,20,2-10,Houston Texans,HOU,23,8-5,False,43,3,EverBank Stadium,Jacksonville,False,FOX
+2024,13,401671753,2024-12-01T21:05Z,STATUS_FINAL,New Orleans Saints,NO,14,4-8,Los Angeles Rams,LAR,21,6-6,False,35,7,Caesars Superdome,New Orleans,False,FOX
+2024,13,401671752,2024-12-01T21:05Z,STATUS_FINAL,Carolina Panthers,CAR,23,3-9,Tampa Bay Buccaneers,TB,26,6-6,False,49,3,Bank of America Stadium,Charlotte,False,FOX
+2024,13,401671666,2024-12-01T21:25Z,STATUS_FINAL,Baltimore Ravens,BAL,19,8-5,Philadelphia Eagles,PHI,24,10-2,False,43,5,M&T Bank Stadium,Baltimore,False,CBS
+2024,13,401671781,2024-12-02T01:20Z,STATUS_FINAL,Buffalo Bills,BUF,35,10-2,San Francisco 49ers,SF,10,5-7,True,45,25,Highmark Stadium,Orchard Park,False,NBC
+2024,13,401671686,2024-12-03T01:15Z,STATUS_FINAL,Denver Broncos,DEN,41,8-5,Cleveland Browns,CLE,32,3-9,True,73,9,Empower Field at Mile High,Denver,False,ESPN
+2024,14,401671814,2024-12-06T01:15Z,STATUS_FINAL,Detroit Lions,DET,34,12-1,Green Bay Packers,GB,31,9-4,True,65,3,Ford Field,Detroit,False,Prime Video
+2024,14,401671821,2024-12-08T18:00Z,STATUS_FINAL,Tennessee Titans,TEN,6,3-10,Jacksonville Jaguars,JAX,10,3-10,False,16,4,Nissan Stadium,Nashville,False,CBS
+2024,14,401671848,2024-12-08T18:00Z,STATUS_FINAL,Miami Dolphins,MIA,32,6-7,New York Jets,NYJ,26,3-10,True,58,6,Hard Rock Stadium,Miami Gardens,False,CBS
+2024,14,401671648,2024-12-08T18:00Z,STATUS_FINAL,Minnesota Vikings,MIN,42,11-2,Atlanta Falcons,ATL,21,6-7,True,63,21,U.S. Bank Stadium,Minneapolis,False,FOX
+2024,14,401671601,2024-12-08T18:00Z,STATUS_FINAL,New York Giants,NYG,11,2-11,New Orleans Saints,NO,14,5-8,False,25,3,MetLife Stadium,East Rutherford,False,FOX
+2024,14,401671713,2024-12-08T18:00Z,STATUS_FINAL,Philadelphia Eagles,PHI,22,11-2,Carolina Panthers,CAR,16,3-10,True,38,6,Lincoln Financial Field,Philadelphia,False,FOX
+2024,14,401671631,2024-12-08T18:00Z,STATUS_FINAL,Pittsburgh Steelers,PIT,27,10-3,Cleveland Browns,CLE,14,3-10,True,41,13,Acrisure Stadium,Pittsburgh,False,CBS
+2024,14,401671654,2024-12-08T18:00Z,STATUS_FINAL,Tampa Bay Buccaneers,TB,28,7-6,Las Vegas Raiders,LV,13,2-11,True,41,15,Raymond James Stadium,Tampa,False,CBS
+2024,14,401671660,2024-12-08T21:05Z,STATUS_FINAL,Arizona Cardinals,ARI,18,6-7,Seattle Seahawks,SEA,30,8-5,False,48,12,State Farm Stadium,Glendale,False,CBS
+2024,14,401671773,2024-12-08T21:25Z,STATUS_FINAL,Los Angeles Rams,LAR,44,7-6,Buffalo Bills,BUF,42,10-3,True,86,2,SoFi Stadium,Inglewood,False,FOX
+2024,14,401671774,2024-12-08T21:25Z,STATUS_FINAL,San Francisco 49ers,SF,38,6-7,Chicago Bears,CHI,13,4-9,True,51,25,Levi's Stadium,Santa Clara,False,FOX
+2024,14,401671788,2024-12-09T01:20Z,STATUS_FINAL,Kansas City Chiefs,KC,19,12-1,Los Angeles Chargers,LAC,17,8-5,True,36,2,GEHA Field at Arrowhead Stadium,Kansas City,False,NBC
+2024,14,401671690,2024-12-10T01:15Z,STATUS_FINAL,Dallas Cowboys,DAL,20,5-8,Cincinnati Bengals,CIN,27,5-8,False,47,7,AT&T Stadium,Arlington,False,ESPN
+2024,15,401671818,2024-12-13T01:15Z,STATUS_FINAL,San Francisco 49ers,SF,6,6-8,Los Angeles Rams,LAR,12,8-6,False,18,6,Levi's Stadium,Santa Clara,False,Prime Video
+2024,15,401671854,2024-12-15T18:00Z,STATUS_FINAL,Cleveland Browns,CLE,7,3-11,Kansas City Chiefs,KC,21,13-1,False,28,14,Huntington Bank Field,Cleveland,False,CBS
+2024,15,401671825,2024-12-15T18:00Z,STATUS_FINAL,Tennessee Titans,TEN,27,3-11,Cincinnati Bengals,CIN,37,6-8,False,64,10,Nissan Stadium,Nashville,False,FOX
+2024,15,401671737,2024-12-15T18:00Z,STATUS_FINAL,New Orleans Saints,NO,19,5-9,Washington Commanders,WSH,20,9-5,False,39,1,Caesars Superdome,New Orleans,False,FOX
+2024,15,401671639,2024-12-15T18:00Z,STATUS_FINAL,New York Giants,NYG,14,2-12,Baltimore Ravens,BAL,35,9-5,False,49,21,MetLife Stadium,East Rutherford,False,CBS
+2024,15,401671731,2024-12-15T18:00Z,STATUS_FINAL,Carolina Panthers,CAR,14,3-11,Dallas Cowboys,DAL,30,6-8,False,44,16,Bank of America Stadium,Charlotte,False,FOX
+2024,15,401671706,2024-12-15T18:00Z,STATUS_FINAL,Jacksonville Jaguars,JAX,25,3-11,New York Jets,NYJ,32,4-10,False,57,7,EverBank Stadium,Jacksonville,False,FOX
+2024,15,401671860,2024-12-15T18:00Z,STATUS_FINAL,Houston Texans,HOU,20,9-5,Miami Dolphins,MIA,12,6-8,True,32,8,NRG Stadium,Houston,False,CBS
+2024,15,401671669,2024-12-15T21:25Z,STATUS_FINAL,Denver Broncos,DEN,31,9-5,Indianapolis Colts,IND,13,6-8,True,44,18,Empower Field at Mile High,Denver,False,CBS
+2024,15,401671681,2024-12-15T21:25Z,STATUS_FINAL,Detroit Lions,DET,42,12-2,Buffalo Bills,BUF,48,11-3,False,90,6,Ford Field,Detroit,False,CBS
+2024,15,401671766,2024-12-15T21:25Z,STATUS_FINAL,Philadelphia Eagles,PHI,27,12-2,Pittsburgh Steelers,PIT,13,10-4,True,40,14,Lincoln Financial Field,Philadelphia,False,FOX
+2024,15,401671677,2024-12-15T21:25Z,STATUS_FINAL,Arizona Cardinals,ARI,30,7-7,New England Patriots,NE,17,3-11,True,47,13,State Farm Stadium,Glendale,False,CBS
+2024,15,401671762,2024-12-15T21:25Z,STATUS_FINAL,Los Angeles Chargers,LAC,17,8-6,Tampa Bay Buccaneers,TB,40,8-6,False,57,23,SoFi Stadium,Inglewood,False,FOX
+2024,15,401671796,2024-12-16T01:20Z,STATUS_FINAL,Seattle Seahawks,SEA,13,8-6,Green Bay Packers,GB,30,10-4,False,43,17,Lumen Field,Seattle,False,NBC
+2024,15,401671489,2024-12-17T01:00Z,STATUS_FINAL,Minnesota Vikings,MIN,30,12-2,Chicago Bears,CHI,12,4-10,True,42,18,U.S. Bank Stadium,Minneapolis,False,ABC
+2024,15,401671697,2024-12-17T01:30Z,STATUS_FINAL,Las Vegas Raiders,LV,9,2-12,Atlanta Falcons,ATL,15,7-7,False,24,6,Allegiant Stadium,Las Vegas,False,ESPN
+2024,16,401671749,2024-12-20T01:15Z,STATUS_FINAL,Los Angeles Chargers,LAC,34,9-6,Denver Broncos,DEN,27,9-6,True,61,7,SoFi Stadium,Inglewood,False,Prime Video
+2024,16,401671780,2024-12-21T18:00Z,STATUS_FINAL,Kansas City Chiefs,KC,27,14-1,Houston Texans,HOU,19,9-6,True,46,8,GEHA Field at Arrowhead Stadium,Kansas City,False,NBC
+2024,16,401671778,2024-12-21T21:30Z,STATUS_FINAL,Baltimore Ravens,BAL,34,10-5,Pittsburgh Steelers,PIT,17,10-5,True,51,17,M&T Bank Stadium,Baltimore,False,FOX
+2024,16,401671729,2024-12-22T18:00Z,STATUS_FINAL,Atlanta Falcons,ATL,34,8-7,New York Giants,NYG,7,2-13,True,41,27,Mercedes-Benz Stadium,Atlanta,False,FOX
+2024,16,401671868,2024-12-22T18:00Z,STATUS_FINAL,Chicago Bears,CHI,17,4-11,Detroit Lions,DET,34,13-2,False,51,17,Soldier Field,Chicago,False,FOX
+2024,16,401671811,2024-12-22T18:00Z,STATUS_FINAL,Cincinnati Bengals,CIN,24,7-8,Cleveland Browns,CLE,6,3-12,True,30,18,Paycor Stadium,Cincinnati,False,CBS
+2024,16,401671862,2024-12-22T18:00Z,STATUS_FINAL,Indianapolis Colts,IND,38,7-8,Tennessee Titans,TEN,30,3-12,True,68,8,Lucas Oil Stadium,Indianapolis,False,CBS
+2024,16,401671621,2024-12-22T18:00Z,STATUS_FINAL,New York Jets,NYJ,9,4-11,Los Angeles Rams,LAR,19,9-6,False,28,10,MetLife Stadium,East Rutherford,False,CBS
+2024,16,401671717,2024-12-22T18:00Z,STATUS_FINAL,Washington Commanders,WSH,36,10-5,Philadelphia Eagles,PHI,33,12-3,True,69,3,Northwest Stadium,Landover,False,FOX
+2024,16,401671732,2024-12-22T18:00Z,STATUS_FINAL,Carolina Panthers,CAR,36,4-11,Arizona Cardinals,ARI,30,7-8,True,66,6,Bank of America Stadium,Charlotte,False,FOX
+2024,16,401671759,2024-12-22T21:05Z,STATUS_FINAL,Seattle Seahawks,SEA,24,8-7,Minnesota Vikings,MIN,27,13-2,False,51,3,Lumen Field,Seattle,False,FOX
+2024,16,401671494,2024-12-22T21:25Z,STATUS_FINAL,Buffalo Bills,BUF,24,12-3,New England Patriots,NE,21,3-12,True,45,3,Highmark Stadium,Orchard Park,False,CBS
+2024,16,401671673,2024-12-22T21:25Z,STATUS_FINAL,Las Vegas Raiders,LV,19,3-12,Jacksonville Jaguars,JAX,14,3-12,True,33,5,Allegiant Stadium,Las Vegas,False,CBS
+2024,16,401671874,2024-12-22T21:25Z,STATUS_FINAL,Miami Dolphins,MIA,29,7-8,San Francisco 49ers,SF,17,6-9,True,46,12,Hard Rock Stadium,Miami Gardens,False,CBS
+2024,16,401671790,2024-12-23T01:20Z,STATUS_FINAL,Dallas Cowboys,DAL,26,7-8,Tampa Bay Buccaneers,TB,24,8-7,True,50,2,AT&T Stadium,Arlington,False,NBC
+2024,16,401671692,2024-12-24T01:15Z,STATUS_FINAL,Green Bay Packers,GB,34,11-4,New Orleans Saints,NO,0,5-10,True,34,34,Lambeau Field,Green Bay,False,ESPN
+2024,17,401671799,2024-12-25T18:00Z,STATUS_FINAL,Pittsburgh Steelers,PIT,10,10-6,Kansas City Chiefs,KC,29,15-1,False,39,19,Acrisure Stadium,Pittsburgh,False,Netflix
+2024,17,401671800,2024-12-25T21:30Z,STATUS_FINAL,Houston Texans,HOU,2,9-7,Baltimore Ravens,BAL,31,11-5,False,33,29,NRG Stadium,Houston,False,Netflix
+2024,17,401671876,2024-12-27T01:15Z,STATUS_FINAL,Chicago Bears,CHI,3,4-12,Seattle Seahawks,SEA,6,9-7,False,9,3,Soldier Field,Chicago,False,Prime Video
+2024,17,401671832,2024-12-28T18:00Z,STATUS_FINAL,New England Patriots,NE,7,3-13,Los Angeles Chargers,LAC,40,10-6,False,47,33,Gillette Stadium,Foxborough,False,NFL Net
+2024,17,401671835,2024-12-28T21:30Z,STATUS_FINAL,Cincinnati Bengals,CIN,30,8-8,Denver Broncos,DEN,24,9-7,True,54,6,Paycor Stadium,Cincinnati,False,NFL Net
+2024,17,401671829,2024-12-29T01:00Z,STATUS_FINAL,Los Angeles Rams,LAR,13,10-6,Arizona Cardinals,ARI,9,7-9,True,22,4,SoFi Stadium,Inglewood,False,NFL Net
+2024,17,401671495,2024-12-29T18:00Z,STATUS_FINAL,Buffalo Bills,BUF,40,13-3,New York Jets,NYJ,14,4-12,True,54,26,Highmark Stadium,Orchard Park,False,CBS
+2024,17,401671738,2024-12-29T18:00Z,STATUS_FINAL,New Orleans Saints,NO,10,5-11,Las Vegas Raiders,LV,25,4-12,False,35,15,Caesars Superdome,New Orleans,False,FOX
+2024,17,401671846,2024-12-29T18:00Z,STATUS_FINAL,New York Giants,NYG,45,3-13,Indianapolis Colts,IND,33,7-9,True,78,12,MetLife Stadium,East Rutherford,False,FOX
+2024,17,401671765,2024-12-29T18:00Z,STATUS_FINAL,Philadelphia Eagles,PHI,41,13-3,Dallas Cowboys,DAL,7,7-9,True,48,34,Lincoln Financial Field,Philadelphia,False,FOX
+2024,17,401671653,2024-12-29T18:00Z,STATUS_FINAL,Tampa Bay Buccaneers,TB,48,9-7,Carolina Panthers,CAR,14,4-12,True,62,34,Raymond James Stadium,Tampa,False,CBS
+2024,17,401671634,2024-12-29T18:00Z,STATUS_FINAL,Jacksonville Jaguars,JAX,20,4-12,Tennessee Titans,TEN,13,3-13,True,33,7,EverBank Stadium,Jacksonville,False,CBS
+2024,17,401671877,2024-12-29T21:05Z,STATUS_FINAL,Cleveland Browns,CLE,3,3-13,Miami Dolphins,MIA,20,8-8,False,23,17,Huntington Bank Field,Cleveland,False,CBS
+2024,17,401671725,2024-12-29T21:25Z,STATUS_FINAL,Minnesota Vikings,MIN,27,14-2,Green Bay Packers,GB,25,11-5,True,52,2,U.S. Bank Stadium,Minneapolis,False,FOX
+2024,17,401671842,2024-12-30T01:20Z,STATUS_FINAL,Washington Commanders,WSH,30,11-5,Atlanta Falcons,ATL,24,8-8,True,54,6,Northwest Stadium,Landover,False,NBC
+2024,17,401671698,2024-12-31T01:15Z,STATUS_FINAL,San Francisco 49ers,SF,34,6-10,Detroit Lions,DET,40,14-2,False,74,6,Levi's Stadium,Santa Clara,False,ESPN
+2024,18,401671834,2025-01-04T21:30Z,STATUS_FINAL,Baltimore Ravens,BAL,35,12-5,Cleveland Browns,CLE,10,3-14,True,45,25,M&T Bank Stadium,Baltimore,False,ESPN
+2024,18,401671836,2025-01-05T01:00Z,STATUS_FINAL,Pittsburgh Steelers,PIT,17,10-7,Cincinnati Bengals,CIN,19,9-8,False,36,2,Acrisure Stadium,Pittsburgh,False,ESPN
+2024,18,401671827,2025-01-05T18:00Z,STATUS_FINAL,Atlanta Falcons,ATL,38,8-9,Carolina Panthers,CAR,44,5-12,False,82,6,Mercedes-Benz Stadium,Atlanta,False,CBS
+2024,18,401671840,2025-01-05T18:00Z,STATUS_FINAL,Dallas Cowboys,DAL,19,7-10,Washington Commanders,WSH,23,12-5,False,42,4,AT&T Stadium,Arlington,False,FOX
+2024,18,401671844,2025-01-05T18:00Z,STATUS_FINAL,Green Bay Packers,GB,22,11-6,Chicago Bears,CHI,24,5-12,False,46,2,Lambeau Field,Green Bay,False,FOX
+2024,18,401671826,2025-01-05T18:00Z,STATUS_FINAL,Tennessee Titans,TEN,14,3-14,Houston Texans,HOU,23,10-7,False,37,9,Nissan Stadium,Nashville,False,CBS
+2024,18,401671837,2025-01-05T18:00Z,STATUS_FINAL,Indianapolis Colts,IND,26,8-9,Jacksonville Jaguars,JAX,23,4-13,True,49,3,Lucas Oil Stadium,Indianapolis,False,FOX
+2024,18,401671831,2025-01-05T18:00Z,STATUS_FINAL,New England Patriots,NE,23,4-13,Buffalo Bills,BUF,16,13-4,True,39,7,Gillette Stadium,Foxborough,False,CBS
+2024,18,401671841,2025-01-05T18:00Z,STATUS_FINAL,Philadelphia Eagles,PHI,20,14-3,New York Giants,NYG,13,3-14,True,33,7,Lincoln Financial Field,Philadelphia,False,CBS
+2024,18,401671828,2025-01-05T18:00Z,STATUS_FINAL,Tampa Bay Buccaneers,TB,27,10-7,New Orleans Saints,NO,19,5-12,True,46,8,Raymond James Stadium,Tampa,False,FOX
+2024,18,401671838,2025-01-05T21:25Z,STATUS_FINAL,Denver Broncos,DEN,38,10-7,Kansas City Chiefs,KC,0,15-2,True,38,38,Empower Field at Mile High,Denver,False,CBS
+2024,18,401671839,2025-01-05T21:25Z,STATUS_FINAL,Las Vegas Raiders,LV,20,4-13,Los Angeles Chargers,LAC,34,11-6,False,54,14,Allegiant Stadium,Las Vegas,False,CBS
+2024,18,401671830,2025-01-05T21:25Z,STATUS_FINAL,Los Angeles Rams,LAR,25,10-7,Seattle Seahawks,SEA,30,10-7,False,55,5,SoFi Stadium,Inglewood,False,FOX
+2024,18,401671833,2025-01-05T21:25Z,STATUS_FINAL,New York Jets,NYJ,32,5-12,Miami Dolphins,MIA,20,8-9,True,52,12,MetLife Stadium,East Rutherford,False,FOX
+2024,18,401671845,2025-01-05T21:25Z,STATUS_FINAL,Arizona Cardinals,ARI,47,8-9,San Francisco 49ers,SF,24,6-11,True,71,23,State Farm Stadium,Glendale,False,FOX
+2024,18,401671843,2025-01-06T01:20Z,STATUS_FINAL,Detroit Lions,DET,31,15-2,Minnesota Vikings,MIN,9,14-3,True,40,22,Ford Field,Detroit,False,NBC
