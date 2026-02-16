@@ -1,24 +1,22 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import type { Metadata } from 'next'
+import './globals.css'
 
 export const metadata: Metadata = {
-  title: "EdgeForce - Beat Vegas. Backed by AI.",
-  description: "AI-powered sports betting predictions with proven results. Join thousands of winners getting the edge over Vegas.",
-};
+  title: 'EdgeForce - AI Sports Betting Predictions',
+  description: 'Beat Vegas with data-driven sports betting predictions. NFL, NBA, MLB picks powered by advanced machine learning.',
+  icons: {
+    icon: '/logo.svg',
+  },
+}
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: React.ReactNode
+}) {
   return (
-    <html lang="en" className="dark">
-      <body className={`${inter.className} antialiased bg-[#0A0A0F] text-white`}>
-        {children}
-      </body>
+    <html lang="en">
+      <body className="antialiased">{children}</body>
     </html>
-  );
+  )
 }
