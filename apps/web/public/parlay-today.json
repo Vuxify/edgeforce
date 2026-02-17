@@ -1,0 +1,41 @@
+{
+  "title": "\ud83c\udfaf PARLAY OF THE DAY",
+  "generated_at": "2026-02-16T18:03:37.038714",
+  "odds": "+208",
+  "decimal_odds": 3.08,
+  "payout": "$208 profit on $100 bet",
+  "num_legs": 3,
+  "avg_confidence": 75.5,
+  "avg_edge": 4.37,
+  "risk_level": "MEDIUM",
+  "legs": [
+    {
+      "leg_number": 1,
+      "pick": "Boston Celtics ML",
+      "matchup": "Boston Celtics @ Detroit Pistons",
+      "odds": "-345",
+      "confidence": "78.5%",
+      "edge": "+3.20%",
+      "reasoning": "Boston Celtics has been dominant lately, winning at a 78% clip in similar situations | Slight 3.2% edge - line shopping opportunity | Close matchup but Boston Celtics has key matchup advantages | Star player returning from injury boosts offensive rating by 8+ points"
+    },
+    {
+      "leg_number": 2,
+      "pick": "Milwaukee Bucks ML",
+      "matchup": "Milwaukee Bucks @ Charlotte Hornets",
+      "odds": "-400",
+      "confidence": "81.3%",
+      "edge": "+2.80%",
+      "reasoning": "Milwaukee Bucks has been dominant lately, winning at a 81% clip in similar situations | Slight 2.8% edge - line shopping opportunity | Close matchup but Milwaukee Bucks has key matchup advantages | Opponent dealing with key injuries to starting lineup"
+    },
+    {
+      "leg_number": 3,
+      "pick": "Phoenix Suns -11.5",
+      "matchup": "Phoenix Suns @ Houston Rockets",
+      "odds": "-110",
+      "confidence": "66.8%",
+      "edge": "+7.10%",
+      "reasoning": "Model projects Phoenix Suns with 67% confidence based on recent form | Clear 7.1% edge - market hasn't adjusted to recent trends | Large spread suggests lopsided matchup - favorite should control game pace | Won last 3 meetings against this opponent"
+    }
+  ],
+  "overall_strategy": "This 3-leg parlay combines 2 heavy favorite(s) with 1 higher-value pick(s). The favorites provide a solid foundation with high win probability, while the closer game(s) boost the payout to +208. Average confidence across all legs: 75.5%."
+}

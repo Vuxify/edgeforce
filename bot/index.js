@@ -108,6 +108,53 @@ async function fetchAlternativePicks() {
   }
 }
 
+// Fetch parlay of the day
+async function fetchParlayOfTheDay() {
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/picks/parlay`)
+    const data = await response.json()
+    
+    if (!data.success) {
+      console.log('No parlay available:', data.message || 'Unknown error')
+      return null
+    }
+    
+    return data.parlay || null
+  } catch (error) {
+    console.error('Error fetching parlay:', error)
+    return null
+  }
+}
+
+// Create embed for parlay
+function createParlayEmbed(parlay) {
+  const embed = new EmbedBuilder()
+    .setTitle('🎯 PARLAY OF THE DAY')
+    .setDescription(parlay.overall_strategy)
+    .setColor(0xFFD700)  // Gold
+    .addFields(
+      { name: '💰 Odds', value: `${parlay.odds} (${parlay.decimal_odds}x)`, inline: true },
+      { name: '💵 Payout', value: parlay.payout, inline: true },
+      { name: '⚠️ Risk', value: parlay.risk_level, inline: true },
+      { name: '📊 Avg Confidence', value: `${parlay.avg_confidence}%`, inline: true },
+      { name: '📈 Avg Edge', value: `+${parlay.avg_edge}%`, inline: true },
+      { name: '🦵 Legs', value: `${parlay.num_legs}`, inline: true }
+    )
+    .setTimestamp()
+    .setFooter({ text: 'EdgeForce | Smart parlay builder combining favorites with value' })
+  
+  // Add each leg as a field
+  parlay.legs.forEach((leg, index) => {
+    embed.addFields({
+      name: `\n🦵 Leg ${leg.leg_number}: ${leg.pick} (${leg.odds})`,
+      value: `**${leg.matchup}**\n${leg.confidence} confidence | ${leg.edge} edge\n💡 ${leg.reasoning}`,
+      inline: false
+    })
+  })
+  
+  return embed
+}
+
 // Create embed for alternative pick
 function createAltPickEmbed(pick) {
   const confidenceColor = pick.confidence >= 70 ? 0x00FF88 : 
@@ -201,6 +248,10 @@ async function registerCommands() {
       .setDescription('View all today\'s picks'),
     
     new SlashCommandBuilder()
+      .setName('parlay')
+      .setDescription('Get Parlay of the Day with reasoning'),
+    
+    new SlashCommandBuilder()
       .setName('altpicks')
       .setDescription('View alternative lines (spreads, totals, moneylines)')
       .addStringOption(option =>
@@ -258,6 +309,18 @@ client.on('interactionCreate', async interaction => {
 
       const embeds = picks.slice(0, 5).map(pick => createPickEmbed(pick, false))
       await interaction.reply({ embeds })
+    }
+
+    if (interaction.commandName === 'parlay') {
+      const parlay = await fetchParlayOfTheDay()
+      
+      if (!parlay) {
+        await interaction.reply('📭 No parlay available today. Check back later!')
+        return
+      }
+
+      const embed = createParlayEmbed(parlay)
+      await interaction.reply({ embeds: [embed] })
     }
 
     if (interaction.commandName === 'altpicks') {
